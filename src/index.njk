@@ -1,0 +1,11 @@
+---
+eleventyExcludeFromCollections: true
+---
+<ul style="font-family: monospace">
+    {% for page in collections.all %}
+        <li>
+            <time>{{ page.date.toISOString() }}</time>
+            <a href="{{ page.url | url }}" target="_blank">{{ page.url | url }}</a>
+        </li>
+    {% endfor %}
+</ul>
