@@ -1,16 +1,16 @@
 const site = require("../../../_data/site");
-const charityName = "Philabundance";
+const charityName = "ScrapsKC";
 const charityPrograms = [
     {
-        name: "ARM & HAMMER™ and OXICLEAN™ Pouch Recycling Program",
+        name: "ARM &amp; HAMMER™ and OXICLEAN™ Pouch Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "ARM & HAMMER™ and OXICLEAN™ plastic pouches",
+        description: "ARM &amp; HAMMER™ and OXICLEAN™ plastic pouches",
         imageFilename: "TC Charity Site-Brand Images-Mobile-us-v2_arm and hamer.jpg",
     },
     {
-        name: "MARTINI & ROSSI® Pouch Recycling Program",
+        name: "MARTINI &amp; ROSSI® Pouch Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "MARTINI & ROSSI® Frosé and Frosecco pouches",
+        description: "MARTINI &amp; ROSSI® Frosé and Frosecco pouches",
         imageFilename: "TC Charity Site-Brand Images-Mobile-us-v2_Martini.jpg",
     },
     {
@@ -126,7 +126,7 @@ module.exports = () => {
                 paragraphs: [`Send ${site.brandName}® your trash (free shipping) to be recycled;`, `${site.brandName} will donate $10 to <strong>${charityName}</strong>`],
             },
             introduction: {
-                charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, US, Mobile_Philabundance.jpg",
+                charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, US, Mobile_ScrapsKC.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your trash to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
                     `To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15</strong>.`,
@@ -171,9 +171,9 @@ module.exports = () => {
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
-                    `${charityName} was founded in 1984 with the simple belief that no one should go hungry while healthy food goes to waste.`,
-                    `Our mission is to drive hunger from our communities today and to end hunger for good. In addition to food distribution, we strive to reduce food waste, increase access to nutritious meals, and tackle the root causes of hunger through programs such as the ${charityName} Community Kitchen.`,
-                    `<a href="https://www.philabundance.org/" target="_blank" rel="noopener">www.philabundance.org</a>`,
+                    `${charityName} believes in the promise of a more responsible community. Creative up-cycling in a mindset, a way of seeing the world a little differently.`,
+                    `As a 501(c)(3) nonprofit creative reuse center and resale store, we care for Kansas City's environment, education, and homeless communities by seeing value where others might not. We create a safe space for all people and a home for useful materials to find purpose as we seek to "Make What Matters`,
+                    `<a href="https://scrapskc.org/" target="_blank" rel="noopener">www.scrapskc.org</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
@@ -190,7 +190,7 @@ module.exports = () => {
             widgetSection: {
                 heading: "Get Your Free Shipping Label + Donate at Zero Cost to You",
                 // ⚠️ Important: please join lines before pasting the code! E.g. https://convert-tool.com/conversion/join-lines
-                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="a6e15bf6-d522-423b-979f-dcf7afc8efd2" ></div> <script> (function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){ (f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c) })(window,document,"script","https://www.terracycle.com/en-US/sdk_v2.js","terracycle"); </script>',
+                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="0737697a-6c1a-4e06-8117-6b90f5704561" ></div> <script> (function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){ (f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c) })(window,document,"script","https://www.terracycle.com/en-US/sdk_v2.js","terracycle"); </script>',
             },
             footer: {
                 link: {
