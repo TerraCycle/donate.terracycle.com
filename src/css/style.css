@@ -1,0 +1,757 @@
+:root {
+    --color-005: #005c35;
+    --color-0e4: #0e46291a;
+    --color-132: #13220f;
+    --color-1b8: #1b8158;
+    --color-528: #528d6f;
+    --color-b2d: #b2deba;
+    --color-bdd: #bdd8ca;
+    --color-black: #000000;
+    --color-f7f: #f7f7f7;
+    --color-white: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--color-f7f);
+    color: var(--color-132);
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.show-for-sr {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.tc-btn {
+    background-color: var(--color-1b8);
+    border-radius: 555px;
+    border: 0;
+    color: inherit;
+    color: var(--color-white);
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 10px 34px;
+    text-align: center;
+    width: auto;
+}
+
+.tc-btn:active,
+.tc-btn:hover {
+    background-color: var(--color-005);
+}
+
+.tc-btn span {
+    display: block;
+}
+
+.tc-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1816px;
+}
+
+.tc-h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.tc-header {
+    background-image: url("/images/TC-Charity-Banner-Image-White-Mobile@2x.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 360px;
+    padding: 37px 10% 47%;
+    text-align: center;
+}
+
+.tc-header h1 {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 4px 0;
+}
+
+.tc-header p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tc-header strong {
+    display: block;
+}
+
+.tc-header > .tc-container {
+    max-width: 640px;
+}
+
+.tc-introduction {
+    background-color: var(--color-white);
+    padding: 32px 22px;
+}
+
+.tc-introduction > .tc-container {
+    max-width: 892px;
+}
+
+.tc-introduction__inner-container {
+    margin-top: 32px;
+}
+
+.tc-introduction__inner-container p {
+    margin: 0;
+}
+
+.tc-introduction__logo-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.tc-introduction__logo-container > img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tc-introduction__btn-container {
+    text-align: center;
+}
+
+.tc-how-it-works {
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.tc-how-it-works > .tc-container {
+    max-width: 1840px;
+}
+
+.tc-how-it-works .tc-h2 {
+    margin: 0 0 40px;
+    padding: 20px 24px;
+    text-align: center;
+}
+
+.tc-how-it-works .tc-h2 > span {
+    display: inline-block;
+    position: relative;
+}
+
+.tc-how-it-works .tc-h2 > span::after {
+    background-color: var(--color-b2d);
+    border-radius: 2px;
+    bottom: -22px;
+    content: "";
+    height: 4px;
+    left: -24px;
+    position: absolute;
+    right: -24px;
+}
+
+.tc-how-it-works__closing-sentence {
+    margin: 25px auto;
+    max-width: 936px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.tc-slider__slide {
+    padding-left: 22px;
+    padding-right: 22px;
+    text-align: center;
+}
+
+.tc-slider__slide .tc-h3 {
+    color: var(--color-1b8);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.tc-slider__slide p {
+    margin: 20px 0;
+}
+
+.tc-slider__icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 55px;
+    justify-content: flex-end;
+}
+
+.tc-slider__icon-wrapper img {
+    margin: 0 auto;
+    max-height: 100%;
+    width: auto;
+}
+
+.tc-slider__btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px;
+}
+
+.tc-slider__btn-container .tc-btn {
+    align-items: center;
+    display: flex !important;
+    height: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 0;
+    width: 45px;
+}
+
+.tc-slider__btn-container .tc-btn svg {
+    height: 15px;
+    width: 15px;
+}
+
+/* .tc-slider__btn-container .tc-btn.slick-disabled {
+    opacity: 0;
+} */
+
+.tc-slider__btn-container .tc-btn.slick-prev {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    justify-content: flex-end;
+    padding-right: 13px;
+}
+
+.tc-slider__btn-container .tc-btn.slick-next {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding-left: 13px;
+}
+
+.tc-about {
+    background-color: var(--color-1b8);
+    color: var(--color-white);
+    padding: 24px 22px;
+}
+
+.tc-about > .tc-container {
+    max-width: 892px;
+}
+
+.tc-about p {
+    margin: 20px 0;
+}
+
+.tc-about__h2 {
+    margin: 20px 0;
+}
+
+.tc-about__h2 strong {
+    font-weight: 700;
+}
+
+.tc-explore-what-you-can-recycle {
+    padding: 34px 24px;
+}
+
+.tc-explore-what-you-can-recycle__inner {
+    max-width: 892px;
+}
+
+.tc-explore-what-you-can-recycle .tc-h2 {
+    margin: 0 0 20px;
+}
+
+.tc-explore-what-you-can-recycle p {
+    margin: 0;
+}
+
+.tc-explore-what-you-can-recycle__card-container {
+    margin-top: 32px;
+}
+
+.tc-explore-what-you-can-recycle__card {
+    background-color: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px var(--color-0e4);
+    margin-top: 24px;
+    min-height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tc-explore-what-you-can-recycle__card .tc-h3 {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+
+.tc-explore-what-you-can-recycle__card .tc-h3,
+.tc-explore-what-you-can-recycle__card dd {
+    margin: 0;
+}
+
+.tc-explore-what-you-can-recycle__card dt {
+    font-weight: 700;
+    width: 100%;
+}
+
+.tc-explore-what-you-can-recycle__card dl {
+    align-items: center;
+    background-color: var(--color-1b8);
+    bottom: 0;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    margin: 0;
+    min-height: 120px;
+    opacity: 0;
+    padding: 12px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: opacity 0.3s ease-out;
+    z-index: 1;
+}
+
+.tc-explore-what-you-can-recycle__card-text {
+    width: 100%;
+}
+
+.tc-explore-what-you-can-recycle__card-inner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: inherit;
+}
+
+.tc-explore-what-you-can-recycle__card:focus .card-front-element,
+.tc-explore-what-you-can-recycle__card:hover .card-front-element {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+.tc-explore-what-you-can-recycle__card:focus dl,
+.tc-explore-what-you-can-recycle__card:hover dl {
+    opacity: 1;
+    position: relative;
+    pointer-events: all;
+}
+
+.tc-explore-what-you-can-recycle__btn-container {
+    margin-top: 32px;
+    text-align: center;
+    width: 100%;
+}
+
+.terracycle-widget-new {
+    min-height: 569px;
+}
+
+.tc-widget {
+    background-color: var(--color-white);
+}
+
+.tc-widget > .tc-container {
+    max-width: 690px;
+}
+
+.tc-widget__h2 {
+    margin: 0;
+    padding: 30px 22px 0;
+}
+
+.tc-footer {
+    background-color: var(--color-white);
+    margin-top: auto;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.tc-footer__inner-wrapper {
+    color: var(--color-528);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 24px;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-bottom: 49px;
+    padding-top: 49px;
+    text-align: center;
+}
+
+.tc-footer__inner-wrapper a:active,
+.tc-footer__inner-wrapper a:hover {
+    color: var(--color-005);
+}
+
+.tc-footer__inner-wrapper a + a::before {
+    content: "\00a0•\00a0";
+}
+
+.tc-footer__copy-wrapper {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+}
+
+@media (min-width: 375px) {
+    .terracycle-widget-new {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 620px;
+        min-height: 656px;
+    }
+}
+
+@media (min-width: 640px) {
+    .tc-header {
+        background-image: url("/images/Top Hero Image.png");
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .show-for-medium {
+        display: none !important;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more ~ .tc-explore-what-you-can-recycle__card {
+        display: none;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more ~ .tc-explore-what-you-can-recycle__btn-container .tc-btn__see-less-label {
+        display: none;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more:checked ~ .tc-explore-what-you-can-recycle__card {
+        display: block;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more:checked ~ .tc-explore-what-you-can-recycle__btn-container .tc-btn__see-more-label {
+        display: none;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more:checked ~ .tc-explore-what-you-can-recycle__btn-container .tc-btn__see-less-label {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .hide-for-medium {
+        display: none !important;
+    }
+
+    .tc-nowrap--md {
+        white-space: nowrap;
+    }
+
+    .tc-btn {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 44px;
+    }
+
+    .tc-h2 {
+        font-size: 42px;
+        line-height: 68px;
+    }
+
+    .tc-header {
+        min-height: 990px;
+        padding: 70px 0 395px;
+    }
+
+    .tc-header h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin: 11px 0;
+    }
+
+    .tc-header p {
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0 auto;
+        max-width: 514px;
+    }
+
+    .tc-introduction {
+        padding-bottom: 125px;
+        padding-top: 65px;
+    }
+
+    .tc-introduction__inner-container {
+        margin-top: 61px;
+        text-align: center;
+    }
+
+    .tc-introduction__inner-container p {
+        margin: 25px 0;
+    }
+
+    .tc-how-it-works {
+        padding-bottom: 100px;
+        padding-top: 60px;
+    }
+
+    .tc-how-it-works .tc-h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 60px;
+    }
+
+    .tc-how-it-works .tc-h2 > span {
+        min-width: 292px;
+    }
+
+    .tc-how-it-works__closing-sentence {
+        text-align: center;
+    }
+
+    .tc-slider__slide {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tc-slider__icon-wrapper {
+        height: 75px;
+    }
+
+    .tc-slider__slide .tc-h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .tc-slider__btn-container {
+        margin: 10px 0 20px;
+    }
+
+    .tc-about {
+        padding-bottom: 95px;
+        padding-top: 102px;
+    }
+
+    .tc-about p {
+        margin: 25px 0;
+    }
+
+    .tc-about__h2 {
+        font-size: 32px;
+        line-height: 34px;
+        margin: 30px 0;
+    }
+
+    .tc-about__h2 strong {
+        font-weight: 900;
+    }
+
+    .tc-explore-what-you-can-recycle {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .tc-explore-what-you-can-recycle__inner {
+        text-align: center;
+    }
+
+    .tc-explore-what-you-can-recycle p {
+        letter-spacing: -0.22px;
+    }
+
+    .tc-explore-what-you-can-recycle__card {
+        width: 584px;
+        height: 416px;
+        margin: 28px 16px 0;
+    }
+
+    .tc-explore-what-you-can-recycle__card-inner {
+        display: block;
+    }
+
+    .tc-explore-what-you-can-recycle__card .tc-h3 {
+        align-items: center;
+        background-color: var(--color-1b8);
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 32px;
+        font-weight: 500;
+        justify-content: center;
+        line-height: 34px;
+        min-height: 116px;
+        padding: 7px 20px;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-out;
+    }
+
+    .tc-explore-what-you-can-recycle__card dt {
+        font-weight: 500;
+    }
+
+    .tc-explore-what-you-can-recycle__card dl {
+        line-height: 26px;
+        min-height: auto;
+        padding: 0 66px 24px;
+    }
+
+    .tc-explore-what-you-can-recycle__card-text {
+        background-color: var(--color-1b8);
+        bottom: 0;
+        color: var(--color-white);
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-out;
+        z-index: 1;
+    }
+
+    .tc-explore-what-you-can-recycle__card-text-inner {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        transition: transform 0.3s ease-out, top 0.3s ease-out;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+
+    .tc-explore-what-you-can-recycle__btn-container {
+        margin-top: 65px;
+    }
+
+    .tc-explore-what-you-can-recycle__card:focus .card-front-element,
+    .tc-explore-what-you-can-recycle__card:hover .card-front-element {
+        position: relative;
+        opacity: 1;
+    }
+
+    .tc-explore-what-you-can-recycle__card:focus .tc-explore-what-you-can-recycle__card-text,
+    .tc-explore-what-you-can-recycle__card:hover .tc-explore-what-you-can-recycle__card-text,
+    .tc-explore-what-you-can-recycle__card:focus .tc-h3,
+    .tc-explore-what-you-can-recycle__card:hover .tc-h3 {
+        transform: translateY(0);
+    }
+
+    .tc-explore-what-you-can-recycle__card:focus .tc-explore-what-you-can-recycle__card-text-inner,
+    .tc-explore-what-you-can-recycle__card:hover .tc-explore-what-you-can-recycle__card-text-inner {
+        transform: translateY(-50%);
+        top: 50%;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more-medium ~ .tc-explore-what-you-can-recycle__card {
+        display: none;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more-medium ~ .tc-explore-what-you-can-recycle__btn-container .tc-btn__see-less-label {
+        display: none;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more-medium:checked ~ .tc-explore-what-you-can-recycle__card {
+        display: block;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more-medium:checked ~ .tc-explore-what-you-can-recycle__btn-container .tc-btn__see-more-label {
+        display: none;
+    }
+
+    .tc-explore-what-you-can-recycle__card-container .i-see-more-medium:checked ~ .tc-explore-what-you-can-recycle__btn-container .tc-btn__see-less-label {
+        display: block;
+    }
+
+    .tc-widget {
+        padding-bottom: 73px;
+    }
+
+    .tc-widget__h2 {
+        padding-top: 123px;
+        text-align: center;
+    }
+
+    .tc-footer__inner-wrapper {
+        box-shadow: inset 0px 1px 0px var(--color-bdd);
+        font-size: 14px;
+        justify-content: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 36px;
+        padding-top: 36px;
+        text-align: left;
+    }
+
+    .tc-footer__copy-wrapper {
+        flex: 1 1 0px;
+        margin-right: 0;
+        text-align: right;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tc-introduction__logo-container {
+        margin-left: -29px;
+        margin-right: -29px;
+    }
+
+    .tc-introduction__logo-container > img {
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+}

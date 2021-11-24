@@ -1,0 +1,25 @@
+<div class="tc-how-it-works">
+    <div class="tc-container">
+        <h2 class="tc-h2">
+            <span>{{data.howItWorks.title}}</span>
+        </h2>
+        <div class="tc-slider">
+            {% for step in data.howItWorks.steps %}
+                <div class="tc-slider__slide">
+                    <div class="tc-slider__icon-wrapper">
+                        <img src="/images/{{step.iconFilename | replace(" ", "%20")}}" alt=""/>
+                    </div>
+                    <h3 class="tc-h3">{{step.title}}</h3>
+                    <p>{{step.text | safe}}</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="tc-slider__btn-container">
+            {# {{data.howItWorks.previousStep}} #}
+            {# {{data.howItWorks.nextStep}} #}
+        </div>
+        <p class="tc-how-it-works__closing-sentence">
+            {{data.howItWorks.closingSentence | safe}}
+        </p>
+    </div>
+</div>

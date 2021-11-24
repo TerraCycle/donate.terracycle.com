@@ -1,0 +1,54 @@
+<div class="tc-explore-what-you-can-recycle">
+    <div class="tc-container">
+        <div class="tc-container tc-explore-what-you-can-recycle__inner">
+            <h2 class="tc-h2">{{data.exploreWhatYouCanRecycle.title}}</h2>
+            {% for paragraph in data.exploreWhatYouCanRecycle.paragraphs %}
+                <p>{{paragraph | safe}}</p>
+            {% endfor %}
+        </div>
+        <div class="tc-explore-what-you-can-recycle__card-container">
+            {% for program in data.exploreWhatYouCanRecycle.programs %}
+                <div class="tc-explore-what-you-can-recycle__card" tabindex="0">
+                    <div class="tc-explore-what-you-can-recycle__card-inner">
+                        {% if program.imageFilename %}
+                            <img class="hide-for-medium card-front-element" src="/images/tc-charity-brand-{{data.lang | lower}}/120x120/{{program.imageFilename | replace(" ", "%20")}}" width="120" height="120" alt="" loading="lazy"/>
+                            {# Note: replace()! #}
+                            <img class="show-for-medium card-front-element" src="/images/tc-charity-brand-{{data.lang | lower}}/584x300/{{program.imageFilename | replace("-Mobile", "") | replace(" ", "%20")}}" width="584" height="300" alt="" loading="lazy"/>
+                        {% endif %}
+                        <div class="tc-explore-what-you-can-recycle__card-text">
+                            <div class="tc-explore-what-you-can-recycle__card-text-inner">
+                                <h3 class="tc-h3 card-front-element">{{program.name | safe}}</h3>
+                                <dl>
+                                    <dt>{{program.descriptionTitle}}</dt>
+                                    <dd>{{program.description}}</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% if loop.index === 3 %}
+                    <input id="i-see-more" class="show-for-sr hide-for-medium i-see-more" type="checkbox"/>
+                {% endif %}
+                {% if loop.index === 6 %}
+                    <input id="i-see-more-medium" class="show-for-sr show-for-medium i-see-more-medium" type="checkbox"/>
+                {% endif %}
+            {% endfor %}
+            {% if data.exploreWhatYouCanRecycle.programs.length > 3 %}
+                <div class="hide-for-medium tc-explore-what-you-can-recycle__btn-container">
+                    <label class="tc-btn" for="i-see-more">
+                        <span class="tc-btn__see-more-label">{{data.exploreWhatYouCanRecycle.seeAllButtonLabel}}</span>
+                        <span class="tc-btn__see-less-label">{{data.exploreWhatYouCanRecycle.seeLessButtonLabel}}</span>
+                    </label>
+                </div>
+            {% endif %}
+            {% if data.exploreWhatYouCanRecycle.programs.length > 6 %}
+                <div class="show-for-medium tc-explore-what-you-can-recycle__btn-container">
+                    <label class="tc-btn" for="i-see-more-medium">
+                        <span class="tc-btn__see-more-label">{{data.exploreWhatYouCanRecycle.seeAllButtonLabel}}</span>
+                        <span class="tc-btn__see-less-label">{{data.exploreWhatYouCanRecycle.seeLessButtonLabel}}</span>
+                    </label>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

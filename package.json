@@ -1,0 +1,19 @@
+{
+  "name": "tc-charity-microsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "clean-css": "^5.2.2",
+    "cross-env": "^6.0.3",
+    "html-minifier": "^4.0.0"
+  }
+}

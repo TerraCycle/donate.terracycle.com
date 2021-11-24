@@ -1,0 +1,8 @@
+<div class="tc-header">
+    <div class="tc-container">
+        <h1>{{data.header.title | safe}}</h1>
+        {% for paragraph in data.header.paragraphs %}
+            <p>{{paragraph | safe}}</p>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="tc-about">
+    <div class="tc-container">
+        <h2 class="tc-h2 tc-about__h2">{{data.about.title | safe}}</h2>
+        {% for paragraph in data.about.paragraphs %}
+            <p>{{paragraph | safe}}</p>
+        {% endfor %}
+    </div>
+</div>

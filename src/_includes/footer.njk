@@ -1,0 +1,15 @@
+<footer class="tc-footer">
+    <div class="tc-container tc-footer__inner-wrapper">
+        <a href={{data.footer.link.privacyPolicy.href}} target="_blank" rel="noopener">{{data.footer.link.privacyPolicy.text}}</a>
+
+        <a href={{data.footer.link.termsOfUse.href}} target="_blank" rel="noopener">{{data.footer.link.termsOfUse.text}}</a>
+
+        {% if data.footer.link.doNotSellMyPersonalInformation %}
+            <a href={{data.footer.link.doNotSellMyPersonalInformation.href}} target="_blank" rel="noopener">{{data.footer.link.doNotSellMyPersonalInformation.text}}</a>
+        {% endif %}
+
+        <div class="tc-footer__copy-wrapper">
+            {{data.footer.copyright}}
+        </div>
+    </div>
+</footer>
