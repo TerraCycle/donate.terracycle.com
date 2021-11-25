@@ -1,0 +1,4 @@
+Sitemap: https://donate.terracycle.com/sitemap.xml
+
+User-agent: *
+Disallow:
