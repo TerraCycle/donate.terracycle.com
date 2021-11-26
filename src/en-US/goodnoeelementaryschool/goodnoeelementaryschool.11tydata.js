@@ -118,7 +118,7 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Raise money for your favorite charity by recycling for free. TerraCycle is opening several recycling programs for participation through the end of the year.`,
+                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programs for participation through the end of the year.`,
                 },
             },
             header: {
