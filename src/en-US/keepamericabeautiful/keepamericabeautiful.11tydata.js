@@ -34,7 +34,7 @@ const charityPrograms = [
     {
         name: "L.O.L. Surprise!™ Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "L.O.L. Surprise! packaging, accessories, and products",
+        description: "L.O.L. Surprise!™ packaging, accessories, and products",
         imageFilename: "TC Charity Site-Brand Images-Mobile-us-v2_LOL.jpg",
     },
     {
@@ -172,6 +172,7 @@ module.exports = () => {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
                     `At ${charityName}, we believe in the shared responsibility to build and maintain clean, green, and beautiful spaces. That’s why we take action every day to improve and beautify communities across America. Through collective impact, we can ensure that everyone in America lives in a beautiful community.`,
+                    `<a href="https://kab.org/" target="_blank" rel="noopener">https://kab.org/</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
