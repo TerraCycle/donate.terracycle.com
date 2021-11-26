@@ -1,5 +1,5 @@
 const site = require("../../../_data/site");
-const charityName = "Sister For Souls, Inc";
+const charityName = "Sisters For Souls, Inc";
 const charityPrograms = [
     {
         name: "ARM &amp; HAMMER™ and OXICLEAN™ Pouch Recycling Program",
@@ -34,7 +34,7 @@ const charityPrograms = [
     {
         name: "L.O.L. Surprise!™ Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "L.O.L. Surprise! packaging, accessories, and products",
+        description: "L.O.L. Surprise!™ packaging, accessories, and products",
         imageFilename: "TC Charity Site-Brand Images-Mobile-us-v2_LOL.jpg",
     },
     {
