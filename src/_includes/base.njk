@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
-        <title>{{ data.head.title }} • {{site.brandName}}</title>
+        <title>{{ data.head.title | safe }} • {{site.brandName}}</title>
 
         {% if data.head.meta.description %}
             <meta name="description" content="{{ data.head.meta.description }}">
@@ -28,6 +28,8 @@
                 {{css | cssmin | safe}}
             </style>
         {% endif %}
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://d3c39yxulteaif.cloudfront.net/assets/favicon-2d3f077e8794656b33e5ceca2ece83c230427bbf678f32f6589abbe361f909ac.ico">
     </head>
     <body>
         {{ content | safe }}

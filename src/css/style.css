@@ -251,9 +251,9 @@ img {
     width: 15px;
 }
 
-/* .tc-slider__btn-container .tc-btn.slick-disabled {
-    opacity: 0;
-} */
+.tc-slider__btn-container .tc-btn.slick-disabled {
+    opacity: 0.5;
+}
 
 .tc-slider__btn-container .tc-btn.slick-prev {
     border-bottom-right-radius: 0;

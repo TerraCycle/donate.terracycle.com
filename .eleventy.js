@@ -16,7 +16,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
     eleventyConfig.addPassthroughCopy("./src/js");
     eleventyConfig.addPassthroughCopy("./src/images");
-    eleventyConfig.addPassthroughCopy("./src/favicon.ico");
 
     if (process.env.ELEVENTY_ENV === "dev") {
         eleventyConfig.addPassthroughCopy("./src/css");
