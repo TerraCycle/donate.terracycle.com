@@ -1,11 +1,12 @@
 const site = require("../../../_data/site");
-const charityName = "La Sarmentille APEEP";
+const charityName = "Vaincre la Mucoviscidose";
+const charityNameDefiniteArticle = "";
+
 const charityPrograms = [
     {
         name: "Programme de compostage Lavazza et Carte Noire",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description:
-            "Capsules compostables Eco Caps Lavazza compatibles avec les machines Nespresso® et dosettes souples compostables de la marque Carte Noire",
+        description: "Capsules compostables Eco Caps Lavazza compatibles avec les machines Nespresso® et dosettes souples compostables de la marque Carte Noire",
         imageFilename: "Lavazza_AW-Image-Mobile_UK.jpg",
     },
     {
@@ -24,8 +25,7 @@ const charityPrograms = [
     {
         name: "Programme de recyclage Céréal Bio",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description:
-            "Sachets micro-ondables Céréal Bio, emballages en plastique souple de la gamme des galettes Céréal Bio (carton non inclus)",
+        description: "Sachets micro-ondables Céréal Bio, emballages en plastique souple de la gamme des galettes Céréal Bio (carton non inclus)",
         imageFilename: "CerealBio_AW-Image-Mobile_UK.jpg",
     },
     {
@@ -38,8 +38,7 @@ const charityPrograms = [
     {
         name: "Programme de recyclage des emballages Babybio et Vitabio",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description:
-            "Gourdes Babybio et Vitabio (bouchons inclus), sachets souples Babybio, assiettes et bols de plats préparés Babybio (carton non inclus)",
+        description: "Gourdes Babybio et Vitabio (bouchons inclus), sachets souples Babybio, assiettes et bols de plats préparés Babybio (carton non inclus)",
         imageFilename: "Vitabio_AW-Image-Mobile_UK.jpg",
     },
     {
@@ -62,13 +61,13 @@ module.exports = () => {
                 },
             },
             header: {
-                title: "Collecter des dons pour <strong>La Sarmentille APEEP</strong>",
+                title: `Collecter des dons pour <strong>${charityNameDefiniteArticle}${charityName}</strong>`,
             },
             introduction: {
-                charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, FR, Mobile_La Sarmentille.jpg",
+                charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, FR, Mobile_Vaincre la Mucoviscidose.jpg",
                 paragraphs: [
-                    "Pendant les fêtes de fin d'année, faites un don à <strong>La Sarmentille APEEP</strong> en recyclant gratuitement avec TerraCycle ! En envoyant vos déchets à TerraCycle (frais d'envoi gratuits), vous agissez positivement pour l'environnement et aidez <strong>La Sarmentille APEEP</strong>. Envoyez vos déchets d'emballages à TerraCycle, qui fera don de 10 euros à <strong>La Sarmentille APEEP</strong> pour chaque colis reçu.",
-                    "Jusqu'à la fin de l'année, TerraCycle vous propose de participer à 7 programmes de recyclage. Pour avoir le temps de traiter votre envoi et nous assurer que nous recevons le maximum de dons, commencez à collecter vos déchets dès aujourd'hui et envoyez-les <strong>au plus tard le 15 décembre</strong>."    
+                    `Pendant les fêtes de fin d'année, faites un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> en recyclant gratuitement avec ${site.brandName} ! En envoyant vos déchets à ${site.brandName} (frais d'envoi gratuits), vous agissez positivement pour l'environnement et aidez <strong>${charityNameDefiniteArticle}${charityName}</strong>. Envoyez vos déchets d'emballages à ${site.brandName}, qui fera don de 10 euros à <strong>${charityNameDefiniteArticle}${charityName}</strong> pour chaque colis reçu.`,
+                    "Pour avoir le temps de traiter votre envoi et nous assurer que nous recevons le maximum de dons, commencez à collecter vos déchets dès aujourd'hui et envoyez-les <strong>au plus tard le 15 décembre</strong>.",
                 ],
                 button: {
                     label: ["Obtenez votre étiquette d'expédition gratuite", "Faites un don gratuitement!"],
@@ -94,7 +93,7 @@ module.exports = () => {
                     },
                     {
                         title: `${site.brandName} reverse 10 euros par colis reçu.`,
-                        text: "Et hop, vous venez de faire un don à <strong>La Sarmentille APEEP</strong> gratuitement!",
+                        text: `Et hop, vous venez de faire un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> gratuitement !`,
                         iconFilename: "Donate icon.svg",
                     },
                     {
@@ -105,20 +104,18 @@ module.exports = () => {
                 ],
                 previousStep: "étape précédente",
                 nextStep: "étape suivante",
-                closingSentence:
-                    "N'oubliez pas d'expédier vos emballages <strong>au plus tard le 15 décembre</strong> pour que <strong>La Sarmentille APEEP</strong> reçoive le plus de dons possible de la part de TerraCycle. Les envois reçus après le 31 décembre ne pourront bénéficier que des activations standard offertes.",
+                closingSentence: `N'oubliez pas d'expédier vos emballages <strong>au plus tard le 15 décembre</strong> pour que <strong>${charityNameDefiniteArticle}${charityName}</strong> reçoive le plus de dons possible de la part de ${site.brandName}. Les envois reçus après le 31 décembre ne pourront bénéficier que des activations standard offertes.`,
             },
             about: {
-                title: "À propos de <strong>La Sarmentille APEEP</strong>",
+                title: `À propos de <strong>${charityNameDefiniteArticle}${charityName}</strong>`,
                 paragraphs: [
-                    "L'association a pour vocation d'aider l'école et mener à bien le projet d'école en subventionnant les différentes sorties scolaires, les spectacles, l'achat de matériel, etc.",
-                    "Pour cela, elle organise différentes manifestations pour récolter des fonds. Tous les parents d'enfants de l'école sont donc les bienvenus pour les aider dans cette tâche."
+                    "La mucoviscidose est une maladie génétique rare qui touche principalement les voies respiratoires et le système digestif. La maladie s’aggrave au fil du temps. Il n’existe pas encore de traitement qui guérisse cette maladie chronique et mortelle. Aujourd’hui l’âge moyen de décès des malades est de 34 ans. Tous les 3 jours, un enfant naît atteint de mucoviscidose et 2 millions de Français sont porteurs sains du gène responsable et peuvent le transmettre sans le savoir à leurs enfants. <strong>Vaincre la Mucoviscidose</strong> accompagne les malades et leur famille dans chaque aspect de leur vie bouleversée par la mucoviscidose. L'association est organisée autour de 4 missions prioritaires : guérir, soigner, vivre mieux, et sensibiliser.",
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Voir ce que vous pouvez recycler",
                 paragraphs: [
-                    `Parcourez les pages du programme pour voir les articles "non recyclables" que ${site.brandName} peut accepter. Si vous souhaitez recycler dans le cadre de plusieurs programmes, <strong>veuillez télécharger une nouvelle étiquette d'expédition pour chaque programme et envoyer les déchets dans des boîtes séparées.</strong> Cela permet à ${site.brandName} de recycler efficacement. Vous pouvez télécharger autant d'étiquettes d'expédition gratuites que vous le souhaitez.`
+                    `Parcourez les pages du programme pour voir les articles "non recyclables" que ${site.brandName} peut accepter. Si vous souhaitez recycler dans le cadre de plusieurs programmes, <strong>veuillez télécharger une nouvelle étiquette d'expédition pour chaque programme et envoyer les déchets dans des boîtes séparées.</strong> Cela permet à ${site.brandName} de recycler efficacement. Vous pouvez télécharger autant d'étiquettes d'expédition gratuites que vous le souhaitez.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "Voir tout",
@@ -127,7 +124,7 @@ module.exports = () => {
             widgetSection: {
                 heading: "Obtenez votre étiquette d'expédition gratuite + Faites un don gratuitement!",
                 // ⚠️ Important: please join lines before pasting the code! E.g. https://convert-tool.com/conversion/join-lines
-                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="b328a8b5-c05a-4916-8fc1-d5a3d2c779dd" ></div><script>(function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){(f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c)})(window,document,"script","https://www.terracycle.com/fr-FR/sdk_v2.js","terracycle");</script>',
+                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="d2795631-c487-4e50-98da-fd35ef854d47" ></div> <script> (function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){ (f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c) })(window,document,"script","https://www.terracycle.com/fr-FR/sdk_v2.js","terracycle"); </script>',
             },
             footer: {
                 link: {
@@ -138,7 +135,7 @@ module.exports = () => {
                     termsOfUse: {
                         text: "Conditions générales d'utilisation",
                         href: "https://www.terracycle.com/fr-FR/pages/conditions-d-utilisation",
-                    }
+                    },
                 },
                 copyright: `Copyright ${site.brandName}© 2021. Tous droits réservés.`,
             },
