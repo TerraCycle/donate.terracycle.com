@@ -320,6 +320,13 @@ img {
     position: relative;
 }
 
+.tc-explore-what-you-can-recycle__card-container .i-see-more {
+    display: block;
+    margin: 0;
+    position: relative !important;
+    width: 100% !important;
+}
+
 .tc-explore-what-you-can-recycle__card .tc-h3 {
     font-size: 14px;
     line-height: 20px;
