@@ -171,7 +171,9 @@ module.exports = () => {
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
-                paragraphs: [`TODO`],
+                paragraphs: [
+                    `My name is Jennifer Banta and I am part of the parent team for my sons' South Elementary School. I have been actively recycling through Terracycle for many years, but just recently our school has adopted the program the well. We received a grant from our local recycling center in 2020 to purchase industrial trash cans to use as collections bins, as well as packing supplies. During the pandemic, our school also partnered up with Angeline Industries Inc (a division of the Wyandot County Board of Developmental Disabilities) for their adult individuals to help us collect materials from local businesses to send into ${site.brandName} for the RB Nutrition Brigade. This partnership was an amazing opportunity for both parties and a lot of friendships were formed! Our town is smaller and unfortunately does not have many recycling or environmental awareness education programs. By spreading awareness of ${site.brandName}, many community members have become aware of how much trash we produce and are very grateful for ${site.brandName}! Many have commented that they think this is a wonderful program and it's amazing we can help the Earth AND raise money for our school!`,
+                ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
