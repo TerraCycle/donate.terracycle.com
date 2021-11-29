@@ -51,7 +51,7 @@ module.exports = () => {
             },
             header: {
                 title: `Raise money for <strong>${charityName}</strong> by recycling for free.`,
-                paragraphs: [`Send ${site.brandNAme}® your trash (free shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName}`],
+                paragraphs: [`Send ${site.brandName}® your trash (free shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName}`],
             },
             introduction: {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_Jasper Victim Services.jpg",
