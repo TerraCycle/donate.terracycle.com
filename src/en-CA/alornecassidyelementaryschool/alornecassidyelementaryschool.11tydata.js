@@ -101,7 +101,7 @@ module.exports = () => {
                 paragraphs: [
                     "A. Lorne Cassidy is a Kindergarten to grade 8 elementary school on the unceded, unsurrendered land of the Algonquin Anishinaabe Nation, known as Stittsville, located in west Ottawa.",
                     "It is made of a skilled, talented and caring community of educators, support staff and volunteers that ensure that education is offered in equitable and supportive ways.Through Parent Council's fundraising efforts, we are able to support these endeavours and purchase educational materials ranging from books, supplies, experiences and technology.",
-                    "<a href='https://alornecassidyes.ocdsb.ca/'>https://alornecassidyes.ocdsb.ca/</a>"
+                    `<a href="https://alornecassidyes.ocdsb.ca" target="_blank" rel="noopener">https://alornecassidyes.ocdsb.ca/</a>`
                 ],
             },
             exploreWhatYouCanRecycle: {

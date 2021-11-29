@@ -99,7 +99,7 @@ module.exports = () => {
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
-                    'Fairmont Public School is located in the Hamilton - Highbury area of London, Ontario.  Our school serves a population starting at kindergarten to grade eight. Our school population includes the Hearing Impaired Classes for the Thames Valley District School Board. We believe that success is reached only when the child, parent and school staff work closely together.  Fairmont Public School enjoys a strong partnership with the School Council. All work together to support the needs of our children and the uniqueness of our school. Fairmont is the "Jewel of the East". <a href="https://fairmont.tvdsb.ca/en/index.aspx">https://fairmont.tvdsb.ca/en/index.aspx</a>'
+                    'Fairmont Public School is located in the Hamilton - Highbury area of London, Ontario.  Our school serves a population starting at kindergarten to grade eight. Our school population includes the Hearing Impaired Classes for the Thames Valley District School Board. We believe that success is reached only when the child, parent and school staff work closely together.  Fairmont Public School enjoys a strong partnership with the School Council. All work together to support the needs of our children and the uniqueness of our school. Fairmont is the "Jewel of the East". <a href="https://fairmont.tvdsb.ca/en/index.aspx" target="_blank" rel="noopener">https://fairmont.tvdsb.ca/en/index.aspx</a>'
                 ],
             },
             exploreWhatYouCanRecycle: {

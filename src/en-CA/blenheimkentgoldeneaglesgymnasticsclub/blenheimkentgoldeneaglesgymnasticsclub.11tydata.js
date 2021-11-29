@@ -101,7 +101,7 @@ module.exports = () => {
                 paragraphs: [
                     "We are a not for profit youth organized gymnastics facility. Our fundraising efforts help keep our programs affordable for all well helping to maintain our facility and continually upgrade our equipment for all areas and programs within the gym!",
                     "We have been in operation since 1978 and continue to built and expand our program opportunities and are located in Blenheim Ontario.",
-                    "<a href='https://blenheimgoldeneagles.com/'>https://blenheimgoldeneagles.com/</a>"
+                    `<a href="https://blenheimgoldeneagles.com/" target="_blank" rel="noopener">https://blenheimgoldeneagles.com/</a>`
                 ],
             },
             exploreWhatYouCanRecycle: {

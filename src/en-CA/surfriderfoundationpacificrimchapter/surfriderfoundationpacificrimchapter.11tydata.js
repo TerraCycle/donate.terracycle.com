@@ -99,8 +99,8 @@ module.exports = () => {
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
-                    "Surfrider has built a network of coastal defenders who transform their passion for the coast into lasting protection. We are fortunate to live in a place where passion for protection is in our blood. We are a community of dedicated guardians including First Nations, grassroots environmentalists, scientists, ocean lovers, surfers, beach walkers and fishing enthusiasts.",
-                    "Bringing local knowledge together with national experts in law, policy and science, Surfrider is a leading voice in addressing plastic pollution. <a href='https://www.pacificrim.surfrider.org'>https://www.pacificrim.surfrider.org</a>"
+                    `Surfrider has built a network of coastal defenders who transform their passion for the coast into lasting protection. We are fortunate to live in a place where passion for protection is in our blood. We are a community of dedicated guardians including First Nations, grassroots environmentalists, scientists, ocean lovers, surfers, beach walkers and fishing enthusiasts.",
+                    "Bringing local knowledge together with national experts in law, policy and science, Surfrider is a leading voice in addressing plastic pollution. <a href="https://www.pacificrim.surfrider.org/" target="_blank" rel="noopener">https://www.pacificrim.surfrider.org</a>`
                 ],
             },
             exploreWhatYouCanRecycle: {

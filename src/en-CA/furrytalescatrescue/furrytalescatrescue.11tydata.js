@@ -103,7 +103,7 @@ module.exports = () => {
                     "Founded in 2015 we are a not-for-profit registered charity, and 100 percent volunteer-run organization. Our primary goal is to assist cats who need urgent care. We take in older and middle-aged cats who have been displaced, abandoned, or at high risk of being euthanized in the pound system. We work diligently to pull these cats to safety within our rescue.",
                     "We help stray cats in Ottawa and surrounding area, cats rescued from hoarding situations, and those who have been surrendered by owners.",
                     "When preparing our cats for adoption, we offer top-notch vetting such as spay and neuter, microchip, and vaccines. We take on a lot of medical cases and have completed numerous dental, amputations, and entropic surgeries. We care for many seniors with kidney or thyroid disease and take FIV cats.",
-                    "We have helped more than 6000 cats so far to find their forever homes. <a href='www.Furry-Tales.ca'>www.Furry-Tales.ca</a>",
+                    `We have helped more than 6000 cats so far to find their forever homes. <a href="https://www.furry-tales.ca/#/" target="_blank" rel="noopener">www.Furry-Tales.ca</a>`,
                     "Rescuing animals is a never-ending cycle and only with an amazing group of supporters can we succeed."
                 ],
             },
