@@ -34,7 +34,7 @@ const charityPrograms = [
     {
         name: "L.O.L. Surprise!™ Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "L.O.L. Surprise! packaging, accessories, and products",
+        description: "L.O.L. Surprise!™ packaging, accessories, and products",
         imageFilename: "TC Charity Site-Brand Images-Mobile-us-v2_LOL.jpg",
     },
     {
@@ -118,7 +118,7 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Raise money for your favorite charity by recycling for free. TerraCycle is opening several recycling programs for participation through the end of the year.`,
+                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programs for participation through the end of the year.`,
                 },
             },
             header: {
@@ -166,12 +166,13 @@ module.exports = () => {
                 ],
                 previousStep: "previous step",
                 nextStep: "next step",
-                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure ${charityName} receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered.`,
+                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure <strong>${charityName}</strong> receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered.`,
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
                     `At ${charityName}, we believe in the shared responsibility to build and maintain clean, green, and beautiful spaces. That’s why we take action every day to improve and beautify communities across America. Through collective impact, we can ensure that everyone in America lives in a beautiful community.`,
+                    `<a href="https://kab.org/" target="_blank" rel="noopener">https://kab.org/</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {

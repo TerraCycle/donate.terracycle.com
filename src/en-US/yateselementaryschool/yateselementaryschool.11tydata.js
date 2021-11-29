@@ -34,7 +34,7 @@ const charityPrograms = [
     {
         name: "L.O.L. Surprise!™ Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "L.O.L. Surprise! packaging, accessories, and products",
+        description: "L.O.L. Surprise!™ packaging, accessories, and products",
         imageFilename: "TC Charity Site-Brand Images-Mobile-us-v2_LOL.jpg",
     },
     {
@@ -118,7 +118,7 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Raise money for your favorite charity by recycling for free. TerraCycle is opening several recycling programs for participation through the end of the year.`,
+                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programs for participation through the end of the year.`,
                 },
             },
             header: {
@@ -126,7 +126,7 @@ module.exports = () => {
                 paragraphs: [`Send ${site.brandName}® your trash (free shipping) to be recycled;`, `${site.brandName} will donate $10 to <strong>${charityName}</strong>`],
             },
             introduction: {
-                charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, US, Mobile_Philabundance.jpg",
+                charityLogoFileName: "",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your trash to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
                     `To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15</strong>.`,
@@ -166,7 +166,7 @@ module.exports = () => {
                 ],
                 previousStep: "previous step",
                 nextStep: "next step",
-                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure ${charityName} receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered.`,
+                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure <strong>${charityName}</strong> receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered.`,
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,

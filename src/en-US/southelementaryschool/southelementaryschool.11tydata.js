@@ -1,5 +1,5 @@
 const site = require("../../../_data/site");
-const charityName = "River Ridge Elementary (GA)";
+const charityName = "South Elementary School (Parent Team)";
 const charityPrograms = [
     {
         name: "ARM &amp; HAMMER™ and OXICLEAN™ Pouch Recycling Program",
@@ -126,7 +126,7 @@ module.exports = () => {
                 paragraphs: [`Send ${site.brandName}® your trash (free shipping) to be recycled;`, `${site.brandName} will donate $10 to <strong>${charityName}</strong>`],
             },
             introduction: {
-                charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, US, Mobile_River Ridge Elementary.jpg",
+                charityLogoFileName: "",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your trash to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
                     `To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15</strong>.`,
@@ -170,12 +170,7 @@ module.exports = () => {
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
-                paragraphs: [
-                    `${charityName} is in Evans, Georgia.`,
-                    `We strive to cultivate Responsible, Respectful, and Eager to learn citizens.`,
-                    `This includes teaching students about the importance of taking care of our planet. `,
-                    `<a href="https://riverridgees.ccboe.net/" target="_blank" rel="noopener">https://riverridgees.ccboe.net/</a>`,
-                ],
+                paragraphs: [`TODO`],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
@@ -191,7 +186,7 @@ module.exports = () => {
             widgetSection: {
                 heading: "Get Your Free Shipping Label + Donate at Zero Cost to You",
                 // ⚠️ Important: please join lines before pasting the code! E.g. https://convert-tool.com/conversion/join-lines
-                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="6056d98d-6929-48ab-a955-75337a5ca597" ></div> <script> (function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){ (f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c) })(window,document,"script","https://www.terracycle.com/en-US/sdk_v2.js","terracycle"); </script>',
+                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="a496a1c0-cdcf-41fe-a834-a5c51e0c3c02" ></div> <script> (function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){ (f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c) })(window,document,"script","https://www.terracycle.com/en-US/sdk_v2.js","terracycle"); </script>',
             },
             footer: {
                 link: {
