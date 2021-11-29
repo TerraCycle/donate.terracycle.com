@@ -51,12 +51,12 @@ module.exports = () => {
             },
             header: {
                 title: `Raise money for <strong>${charityName}</strong> by recycling for free.`,
-                paragraphs: [`Send ${site.brandName}® your trash (free shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName}`],
+                paragraphs: [`Send ${site.brandName}® your trash (free&nbsp;shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName}`],
             },
             introduction: {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_EcoSuperior.jpg",
                 paragraphs: [
-                    `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
