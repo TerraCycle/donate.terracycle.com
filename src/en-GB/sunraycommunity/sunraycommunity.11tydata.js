@@ -140,7 +140,7 @@ module.exports = () => {
                 paragraphs: [
                     `${charityName} can be found in Tolworth, Surrey and is located in the Royal Borough of Kingston.`,
                     `Our residents association <a href="https://www.secra.org.uk/" target="_blank" rel="noopener">SECra.org.uk</a> cares for our streets, our environment and each other.`,
-                    `We have 1,200 households, various local businesses, a social club, a primary school &map; allotments in our community.`,
+                    `We have 1,200 households, various local businesses, a social club, a primary school &amp; allotments in our community.`,
                     `Everyone who lives, works and plays in our community is part of SECra, Sunray &amp; Egmont Community residents association.`,
                     `SunrayRecycle is part of this and helps raise awareness of recycling and raises funds for community workshops, events and has part funded an emergency Defibrillator in the area.`,
                     `SunrayRecycle also has a community allotment plot aimed at supporting those people who would not normally be able to keep one. ♻️🌞`,
