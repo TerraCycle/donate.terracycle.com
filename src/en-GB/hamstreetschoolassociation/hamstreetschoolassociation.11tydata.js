@@ -28,7 +28,8 @@ const charityPrograms = [
     {
         name: "The Babybel® Recycling Programme",
         descriptionTitle: "What you can recycle:",
-        description: "Babybel® net bags, bag label and metal clasp, individual Babybel® wrappers, Babybel® wax, Babybel® Mini Rolls flexible plastic packaging and Mini Roll sleeves and plastic trays",
+        description:
+            "Babybel® net bags, bag label and metal clasp, individual Babybel® wrappers, Babybel® wax, Babybel® Mini Rolls flexible plastic packaging and Mini Roll sleeves and plastic trays",
         imageFilename: "Bel_AW-Image-Mobile.jpg",
     },
     {
@@ -40,7 +41,8 @@ const charityPrograms = [
     {
         name: "The Ferrero Pralines Recycling Programme",
         descriptionTitle: "What you can recycle:",
-        description: "Any Ferrero Rocher and Ferrero Collection aluminum wrappers, transparent plastic box and outer plastic wrappers, gold plastic tray, and Ferrero Rocher chocolate bar aluminum wrappers",
+        description:
+            "Any Ferrero Rocher and Ferrero Collection aluminum wrappers, transparent plastic box and outer plastic wrappers, gold plastic tray, and Ferrero Rocher chocolate bar aluminum wrappers",
         imageFilename: "Ferrero_AW-Image-Mobile-UK.jpg",
     },
     {
@@ -93,6 +95,7 @@ module.exports = () => {
                 charityLogoFileName: "140830 Hamstreet School Association-Mobile.png",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate £10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programmes for participation through the end of the year.`,
                     `To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.`,
                 ],
                 button: {
