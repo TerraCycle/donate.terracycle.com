@@ -171,7 +171,9 @@ module.exports = () => {
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
-                paragraphs: [`TODO`],
+                paragraphs: [
+                    `MobileSmiles Oklahoma is a nonprofit dental care program dedicated to building partnerships to improve and advance oral healthcare in Oklahoma. With the vital help of volunteer dental professionals, our program utilizes two RV-style mobile dental units that travel across the entire state of Oklahoma delivering free dental care and education.`,
+                ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
