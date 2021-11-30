@@ -8,7 +8,7 @@ const config = {
         // ⚠️ This value is relative to your input directory.
         data: "../_data",
         input: "src",
-        output: "public",
+        output: "donate",
     },
 };
 
