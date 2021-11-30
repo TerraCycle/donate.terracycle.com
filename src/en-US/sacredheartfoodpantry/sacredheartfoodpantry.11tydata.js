@@ -172,7 +172,8 @@ module.exports = () => {
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
-                    `TODO`,
+                    `Sacred Heart Church was founded in 1913, the third Catholic Church in LaPorte.  Sacred Heart is a lively and dedicated Catholic community.  Through the years many have gathered here to work, pray, and worship in the name of Our Lord Jesus Christ.  Founded by Polish immigrants, the church is now one of three churches that makes up Holy Family Parish.  To learn more about the founding and history of the parish, explore the link below.`,
+                    `<a href="https://www.holyfamilylaporte.org/sacred-heart-church-history.html" target="_blank" rel="noopener">https://www.holyfamilylaporte.org/sacred-heart-church-history.html</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
