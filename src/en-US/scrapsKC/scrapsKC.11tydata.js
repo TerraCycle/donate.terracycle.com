@@ -173,7 +173,7 @@ module.exports = () => {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
                     `${charityName} believes in the promise of a more responsible community. Creative up-cycling in a mindset, a way of seeing the world a little differently.`,
-                    `As a 501(c)(3) nonprofit creative reuse center and resale store, we care for Kansas City's environment, education, and homeless communities by seeing value where others might not. We create a safe space for all people and a home for useful materials to find purpose as we seek to "Make What Matters`,
+                    `As a 501(c)(3) nonprofit creative reuse center and resale store, we care for Kansas City's environment, education, and homeless communities by seeing value where others might not. We create a safe space for all people and a home for useful materials to find purpose as we seek to "Make What Matters".,
                     `<a href="https://scrapskc.org/" target="_blank" rel="noopener">www.scrapskc.org</a>`,
                 ],
             },
