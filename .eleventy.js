@@ -2,6 +2,7 @@ const del = require("del");
 const path = require("path");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const { minify } = require("terser");
 
 const config = {
     dir: {
@@ -14,11 +15,11 @@ const config = {
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
-    eleventyConfig.addPassthroughCopy("./src/js");
     eleventyConfig.addPassthroughCopy("./src/images");
 
     if (process.env.ELEVENTY_ENV === "dev") {
         eleventyConfig.addPassthroughCopy("./src/css");
+        eleventyConfig.addPassthroughCopy("./src/js");
         eleventyConfig.addWatchTarget("./src/css/");
         eleventyConfig.addWatchTarget("./src/js/");
     }
@@ -29,6 +30,17 @@ module.exports = function (eleventyConfig) {
 
         eleventyConfig.addFilter("cssmin", function (code) {
             return new CleanCSS({}).minify(code).styles;
+        });
+
+        eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (code, callback) {
+            try {
+                const minified = await minify(code);
+                callback(null, minified.code);
+            } catch (err) {
+                console.error("Terser error: ", err);
+                // Fail gracefully.
+                callback(null, code);
+            }
         });
     }
 
