@@ -102,6 +102,7 @@ module.exports = () => {
                 paragraphs: [
                     "Since 1977, the Essex Region Conservation Foundation (ERCF) has been raising funds for the conservation, restoration, development and management of natural and heritage resources in the Essex Region. The funds we raise are critical to ensuring that the Windsor-Essex County-Pelee Island region remains the Place for Life.",
                     "Our Strategic Plan directs our fundraising priorities. Currently, generous donors are helping to support the following fundraising priorities: Greening our Region & Taking Climate Action, Connecting our Region by Trails, Inspiring Future Generations through Outdoor Education, and Preserving our Heritage at the John R. Park Homestead.",
+                    `<a href="https://essexregionconservation.ca/foundation" target="_blank" rel="noopener">https://essexregionconservation.ca/foundation</a>`, 
                 ],
             },
             exploreWhatYouCanRecycle: {
