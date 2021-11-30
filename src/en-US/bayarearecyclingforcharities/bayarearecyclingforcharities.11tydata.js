@@ -171,7 +171,12 @@ module.exports = () => {
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
-                paragraphs: [`<a href="https://mybarc.org/press/" target="_blank" rel="noopener">https://mybarc.org/press/</a>`],
+                paragraphs: [
+                       `Bay Area Recycling for Charities (BARC) is a Traverse City, Michigan-based non-profit company that offers comprehensive recycling services and eco-friendly products for homes, businesses and events. 100% of BARC’s profits are donated to local charities.`,
+                    `When you recycle through BARC, it not only helps the environment, but also supports local charities, and that’s good for everyone. Check out our Products and services and get started today!`,
+                    `<a href="https://mybarc.org/press/" target="_blank" rel="noopener">https://mybarc.org/press/</a>`,
+                    `Bay Area Recycling for Charities (BARC) is a Traverse City, Michigan-based non-profit company that offers comprehensive recycling services and eco-friendly products for homes, businesses and events. 100% of BARC’s profits are donated to local charities.`
+                ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",

@@ -137,7 +137,10 @@ module.exports = () => {
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
-                paragraphs: [`TODO`],
+                paragraphs: [
+                    `Our journey starts with our mission statement which is simple. We Save Lives. We do this by raising sufficient funds to finance an air ambulance service in Wiltshire, Bath and surrounding areas.`,
+                `Our yellow and green Bell 429 helicopter is the first of its type to be used as an air ambulance in the UK. If you see it in the sky it can fly at a top speed of 178 mph and its call sign is Helimed22, so keep an eye out! Our helicopter can accommodate a pilot, two paramedics, a patient and a passenger, if needed. On board you'll find all of the equipment you'd find on a land ambulance. We also have a specialist kit so our crew can provide the best medical care possible. This is all paid for by your kind donations!`,    
+                ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
