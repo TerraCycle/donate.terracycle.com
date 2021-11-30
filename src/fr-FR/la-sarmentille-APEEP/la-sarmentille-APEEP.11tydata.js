@@ -66,6 +66,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, FR, Mobile_La Sarmentille.jpg",
                 paragraphs: [
                     `Pendant les fêtes de fin d'année, faites un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> en recyclant gratuitement avec ${site.brandName} ! En envoyant vos déchets à ${site.brandName} (frais d'envoi gratuits), vous agissez positivement pour l'environnement et aidez <strong>${charityNameDefiniteArticle}${charityName}</strong>. Envoyez vos déchets d'emballages à ${site.brandName}, qui fera don de 10 euros à <strong>${charityNameDefiniteArticle}${charityName}</strong> pour chaque colis reçu.`,
+                    `Jusqu'à la fin de l'année, ${site.brandName} vous propose de participer à ${charityPrograms.length} programmes de recyclage.`,
                     "Pour avoir le temps de traiter votre envoi et nous assurer que nous recevons le maximum de dons, commencez à collecter vos déchets dès aujourd'hui et envoyez-les <strong>au plus tard le 15 décembre</strong>.",
                 ],
                 button: {
