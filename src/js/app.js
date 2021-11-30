@@ -1,7 +1,7 @@
 (function (tc) {
     tc(window.jQuery, window, document);
 })(function ($, window, document) {
-    if (window.devicePixelRatio > 1 && window.innerWidth >= 200) {
+    if (window.devicePixelRatio > 1 && window.innerWidth >= 1200) {
         document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=" + parseFloat((1 / window.devicePixelRatio).toFixed(4)));
     }
 
