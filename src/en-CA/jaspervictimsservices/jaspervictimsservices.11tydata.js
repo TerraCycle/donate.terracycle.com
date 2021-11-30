@@ -10,7 +10,7 @@ const charityPrograms = [
     {
         name: "L.O.L. Surprise!™ Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "L.O.L. Surprise! packaging, accessories, and products",
+        description: "L.O.L. Surprise!™ packaging, accessories, and products",
         imageFilename: "TC Charity Site-Brand Images-ca-v2_LOL-Mobile.jpg",
     },
     {
@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_Jasper Victim Services.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -99,13 +100,14 @@ module.exports = () => {
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
-                    `Jasper Victim Services maintains a high level of Service to Victims of Crime and Trauma in Jasper, these people and their families call upon Jasper Victim Services to provide emotional support, but also accommodation, transportation, and other basic needs. The well trained Jasper Victim Services Advocates provide supports to victims of crime and trauma with compassionate care. Jasper Victim Services provides on-call services to the 5,000 residents of the Municipality of Jasper as well as approximately 2.2 million tourists per year in the 10,878 sq. km National Park. We have been in a world of extreme change since March of 2020, but Victim Services involvement in supporting victims, and through the court process has been consistent. Jasper Victim Services exists to ensure that victimized persons receive support, information, referral and court information subsequent to their victimization, in order to limit the effect of their crisis, and to assist in returning their lives to a desired degree of stability. <a href="https://jasper-alberta.com/2356/Jasper-Victim-Services-Unit" target="_blank" rel="noopener">https://jasper-alberta.com/2356/Jasper-Victim-Services-Unit</a>`
+                    `Jasper Victim Services maintains a high level of Service to Victims of Crime and Trauma in Jasper, these people and their families call upon Jasper Victim Services to provide emotional support, but also accommodation, transportation, and other basic needs. The well trained Jasper Victim Services Advocates provide supports to victims of crime and trauma with compassionate care. Jasper Victim Services provides on-call services to the 5,000 residents of the Municipality of Jasper as well as approximately 2.2 million tourists per year in the 10,878 sq. km National Park. We have been in a world of extreme change since March of 2020, but Victim Services involvement in supporting victims, and through the court process has been consistent. Jasper Victim Services exists to ensure that victimized persons receive support, information, referral and court information subsequent to their victimization, in order to limit the effect of their crisis, and to assist in returning their lives to a desired degree of stability. <a href="https://jasper-alberta.com/2356/Jasper-Victim-Services-Unit" target="_blank" rel="noopener">https://jasper-alberta.com/2356/Jasper-Victim-Services-Unit</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, <strong>please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes</strong>.`,
+                    `This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",

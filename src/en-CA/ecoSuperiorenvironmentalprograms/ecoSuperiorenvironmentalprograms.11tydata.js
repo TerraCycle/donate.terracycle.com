@@ -10,7 +10,7 @@ const charityPrograms = [
     {
         name: "L.O.L. Surprise!™ Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "L.O.L. Surprise! packaging, accessories, and products",
+        description: "L.O.L. Surprise!™ packaging, accessories, and products",
         imageFilename: "TC Charity Site-Brand Images-ca-v2_LOL-Mobile.jpg",
     },
     {
@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_EcoSuperior.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -100,13 +101,14 @@ module.exports = () => {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
                     "EcoSuperior Environmental Programs is a partnership-based organization working to increase environmental stewardship in northwestern Ontario since 1995. With a volunteer board of directors including 12 members from diverse sectors including academia, business, industry and indigenous services, EcoSuperior delivers a wide range of programs and services to Thunder Bay and other communities. Staff provide education and outreach programs in areas such as waste reduction and litter prevention, storm water management, water quality, active transportation and biodiversity.",
-                    "Services including home energy assessments, teacher training and administration of municipal rebate programs are also provided. EcoSuperior's office, centrally located in Thunder Bay, is also a public resource centre and offers a small retail area where eco-friendly items such as rain barrels, composters, radon kits, reusable plastic alternatives and heritage seeds can be purchased. The organization is widely recognized as a leader in environmental outreach, engaging thousands of youth and adults in programming annually to fulfill the mission of building a healthy future for people and the planet. <a href='www.ecosuperior.org'>www.ecosuperior.org</a>"
+                    "Services including home energy assessments, teacher training and administration of municipal rebate programs are also provided. EcoSuperior's office, centrally located in Thunder Bay, is also a public resource centre and offers a small retail area where eco-friendly items such as rain barrels, composters, radon kits, reusable plastic alternatives and heritage seeds can be purchased. The organization is widely recognized as a leader in environmental outreach, engaging thousands of youth and adults in programming annually to fulfill the mission of building a healthy future for people and the planet. <a href='www.ecosuperior.org'>www.ecosuperior.org</a>",
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, <strong>please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes</strong>.`,
+                    `This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",

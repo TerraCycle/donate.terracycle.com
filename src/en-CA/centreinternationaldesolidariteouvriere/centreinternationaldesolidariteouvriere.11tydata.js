@@ -10,7 +10,7 @@ const charityPrograms = [
     {
         name: "L.O.L. Surprise!™ Recycling Program",
         descriptionTitle: "What you can recycle:",
-        description: "L.O.L. Surprise! packaging, accessories, and products",
+        description: "L.O.L. Surprise!™ packaging, accessories, and products",
         imageFilename: "TC Charity Site-Brand Images-ca-v2_LOL-Mobile.jpg",
     },
     {
@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -99,13 +100,14 @@ module.exports = () => {
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
-                    `The International Center for Worker Solidarity (CISO) is a Quebec-based, inter-union organization dedicated to promoting and defending human and labour rights, to raising awareness on these rights and to supporting international solidarity and cooperation initiatives, mainly in Latin America, Africa and the Caribbean. CISO's mission is to develop international solidarity by strengthening ties between workers in Quebec and around the world in their actions for labour and human rights, for better working conditions and for a just and democratic society. Funds raised through Terracycle are destined in their totality to a program in support of informal waste pickers (« pepenadores ») in Mexico. <a href="https://www.ciso.qc.ca/" target="_blank" rel="noopener">www.ciso.qc.ca</a>`
+                    `The International Center for Worker Solidarity (CISO) is a Quebec-based, inter-union organization dedicated to promoting and defending human and labour rights, to raising awareness on these rights and to supporting international solidarity and cooperation initiatives, mainly in Latin America, Africa and the Caribbean. CISO's mission is to develop international solidarity by strengthening ties between workers in Quebec and around the world in their actions for labour and human rights, for better working conditions and for a just and democratic society. Funds raised through Terracycle are destined in their totality to a program in support of informal waste pickers (« pepenadores ») in Mexico. <a href="https://www.ciso.qc.ca/" target="_blank" rel="noopener">www.ciso.qc.ca</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, <strong>please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes</strong>.`,
+                    `This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",
