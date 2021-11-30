@@ -101,6 +101,7 @@ module.exports = () => {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
                     "Brain Garden started as a grassroots endeavor & grew into a global movement, becoming a leader in tobacco waste product reduction strategies & disposal, & the premier distributor of custom branded Reusable Pocket Ashtrays in the world.",
+                `<a href="https://braingarden.ca/" target="_blank" rel="noopener">https://braingarden.ca/</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
