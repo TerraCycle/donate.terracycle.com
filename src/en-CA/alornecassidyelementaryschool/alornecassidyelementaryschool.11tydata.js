@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_ALC.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -101,13 +102,13 @@ module.exports = () => {
                 paragraphs: [
                     "A. Lorne Cassidy is a Kindergarten to grade 8 elementary school on the unceded, unsurrendered land of the Algonquin Anishinaabe Nation, known as Stittsville, located in west Ottawa.",
                     "It is made of a skilled, talented and caring community of educators, support staff and volunteers that ensure that education is offered in equitable and supportive ways.Through Parent Council's fundraising efforts, we are able to support these endeavours and purchase educational materials ranging from books, supplies, experiences and technology.",
-                    `<a href="https://alornecassidyes.ocdsb.ca" target="_blank" rel="noopener">https://alornecassidyes.ocdsb.ca/</a>`
+                    `<a href="https://alornecassidyes.ocdsb.ca" target="_blank" rel="noopener">https://alornecassidyes.ocdsb.ca/</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",

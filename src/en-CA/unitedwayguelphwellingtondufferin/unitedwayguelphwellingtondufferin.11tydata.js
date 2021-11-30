@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_United Way.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -103,13 +104,13 @@ module.exports = () => {
                     "We know we can’t return to the status quo – so our approach to recovery is anything but. We are thinking and acting radically local, with the goal of solving local problems with local solutions and empowering those closest to the issues.",
                     "United Way has been at the intersection of community services for the past 81 years. We are committed to facilitating and supporting a collaborative effort to recovery and will focus on building emotional wellbeing and resiliency, ensuring people are connected to supports to build connection and belonging and help individuals and families stabilize and recover by aligning supports for food, housing and financial security.",
                     "We will put people at the centre of our work and work to address the inequities that equity and rights seeking groups experience. And most importantly, we will mobilize a shared responsibility for social good. Together, we will build an even stronger community after COVID-19.",
-                    `To learn more about how United Way GWD is supporting our community , check out our 2021 Impact Videos on YouTube. <a href="https://www.youtube.com/playlist?list=PLHMlDd16k_4tv2ACsD_0Jin1Q_AUuV4yk" target="_blank" rel="noopener">https://www.youtube.com/playlist?list=PLHMlDd16k_4tv2ACsD_0Jin1Q_AUuV4yk</a>`
+                    `To learn more about how United Way GWD is supporting our community , check out our 2021 Impact Videos on YouTube. <a href="https://www.youtube.com/playlist?list=PLHMlDd16k_4tv2ACsD_0Jin1Q_AUuV4yk" target="_blank" rel="noopener">https://www.youtube.com/playlist?list=PLHMlDd16k_4tv2ACsD_0Jin1Q_AUuV4yk</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",

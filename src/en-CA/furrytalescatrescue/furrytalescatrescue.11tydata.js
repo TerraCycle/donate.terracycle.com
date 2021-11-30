@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_Furry Tales Rescue.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -104,13 +105,13 @@ module.exports = () => {
                     "We help stray cats in Ottawa and surrounding area, cats rescued from hoarding situations, and those who have been surrendered by owners.",
                     "When preparing our cats for adoption, we offer top-notch vetting such as spay and neuter, microchip, and vaccines. We take on a lot of medical cases and have completed numerous dental, amputations, and entropic surgeries. We care for many seniors with kidney or thyroid disease and take FIV cats.",
                     `We have helped more than 6000 cats so far to find their forever homes. <a href="https://www.furry-tales.ca/#/" target="_blank" rel="noopener">www.Furry-Tales.ca</a>`,
-                    "Rescuing animals is a never-ending cycle and only with an amazing group of supporters can we succeed."
+                    "Rescuing animals is a never-ending cycle and only with an amazing group of supporters can we succeed.",
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",

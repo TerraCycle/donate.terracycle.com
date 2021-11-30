@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_Golden Eagles Gymnastics.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -101,13 +102,13 @@ module.exports = () => {
                 paragraphs: [
                     "We are a not for profit youth organized gymnastics facility. Our fundraising efforts help keep our programs affordable for all well helping to maintain our facility and continually upgrade our equipment for all areas and programs within the gym!",
                     "We have been in operation since 1978 and continue to built and expand our program opportunities and are located in Blenheim Ontario.",
-                    `<a href="https://blenheimgoldeneagles.com/" target="_blank" rel="noopener">https://blenheimgoldeneagles.com/</a>`
+                    `<a href="https://blenheimgoldeneagles.com/" target="_blank" rel="noopener">https://blenheimgoldeneagles.com/</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",

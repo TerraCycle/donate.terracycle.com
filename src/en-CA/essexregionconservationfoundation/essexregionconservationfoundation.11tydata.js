@@ -57,6 +57,7 @@ module.exports = () => {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_Essex Region Conservation Authority.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
                     "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
                 ],
                 button: {
@@ -100,13 +101,13 @@ module.exports = () => {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
                     "Since 1977, the Essex Region Conservation Foundation (ERCF) has been raising funds for the conservation, restoration, development and management of natural and heritage resources in the Essex Region. The funds we raise are critical to ensuring that the Windsor-Essex County-Pelee Island region remains the Place for Life.",
-                    "Our Strategic Plan directs our fundraising priorities. Currently, generous donors are helping to support the following fundraising priorities: Greening our Region & Taking Climate Action, Connecting our Region by Trails, Inspiring Future Generations through Outdoor Education, and Preserving our Heritage at the John R. Park Homestead." 
+                    "Our Strategic Plan directs our fundraising priorities. Currently, generous donors are helping to support the following fundraising priorities: Greening our Region & Taking Climate Action, Connecting our Region by Trails, Inspiring Future Generations through Outdoor Education, and Preserving our Heritage at the John R. Park Homestead.",
                 ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
-                     `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`
+                    `Browse through the program tiles to view the “unrecyclable” items that ${site.brandName} can accept. If you would like to recycle through multiple programs, please download a new shipping label for each program and please send the waste corresponding to each program in separate boxes. This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,
                 seeAllButtonLabel: "See All",
