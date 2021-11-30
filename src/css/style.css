@@ -765,17 +765,25 @@ img {
 
 /* https://caniuse.com/css-zoom */
 @media
-only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.25),
-only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 1.25) {
+only screen and (hover: hover) and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and (hover: hover) and (min--moz-device-pixel-ratio: 1.25) {
     body {
         zoom: 0.75;
+    }
+
+    iframe {
+        zoom: 1.25;
     }
 }
 
 @media
-only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 1.5) {
+only screen and (hover: hover) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (hover: hover) and (min--moz-device-pixel-ratio: 1.5) {
     body {
         zoom: 0.5;
+    }
+
+    iframe {
+        zoom: 2;
     }
 }
