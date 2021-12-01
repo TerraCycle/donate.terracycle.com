@@ -762,3 +762,25 @@ img {
         margin-right: 29px;
     }
 }
+
+@media
+only screen and (orientation: landscape) and (min-width: 1024px) {
+    body.tc-z125 {
+        zoom: 0.8;
+    }
+
+    body.tc-z125 .tc-widget {
+        zoom: 1.2;
+    }
+}
+
+@media
+only screen and (orientation: landscape) and (min-width: 1024px) {
+    body.tc-z150 {
+        zoom: 0.6667;
+    }
+
+    body.tc-z150 .tc-widget {
+        zoom: 1.4;
+    }
+}
