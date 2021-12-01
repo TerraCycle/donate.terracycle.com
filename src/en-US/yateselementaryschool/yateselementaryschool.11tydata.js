@@ -171,7 +171,9 @@ module.exports = () => {
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
-                paragraphs: [`TODO`],
+                paragraphs: [
+                    `<a href="http://girlscoutsgcnwi.org/" target="_blank" rel="noopener">http://girlscoutsgcnwi.org/</a>`,
+                            ],
             },
             exploreWhatYouCanRecycle: {
                 title: "Explore What You Can Recycle",
