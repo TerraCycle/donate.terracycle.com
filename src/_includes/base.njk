@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
         <title>{{ data.head.title | safe }} • {{site.brandName}}</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://d3c39yxulteaif.cloudfront.net/assets/favicon-2d3f077e8794656b33e5ceca2ece83c230427bbf678f32f6589abbe361f909ac.ico">
 
         {% if data.head.meta.description %}
             <meta name="description" content="{{ data.head.meta.description }}">
@@ -28,8 +29,6 @@
                 {{css | cssmin | safe}}
             </style>
         {% endif %}
-
-        <link rel="shortcut icon" type="image/x-icon" href="https://d3c39yxulteaif.cloudfront.net/assets/favicon-2d3f077e8794656b33e5ceca2ece83c230427bbf678f32f6589abbe361f909ac.ico">
     </head>
     <body>
         {{ content | safe }}
@@ -37,6 +36,19 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script type="text/javascript" src="/js/app.js"></script>
+        {% if site.env === "dev" %}
+            <script type="text/javascript" src="/js/app.js"></script>
+        {% endif %}
+
+        {% if site.env === "prod" %}
+            <!-- capture the JS content as a Nunjucks variable -->
+            {% set js %}
+            {% include "../js/app.js" %}
+            {% endset %}
+            <!-- feed it through our jsmin filter to minify -->
+            <script>
+                {{ js | jsmin | safe }}
+            </script>
+        {% endif %}
     </body>
 </html>
