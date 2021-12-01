@@ -94,7 +94,6 @@ img {
 }
 
 .tc-header {
-    background-image: url("/images/TC-Charity-Banner-Image-White-Mobile@2x.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,6 +103,19 @@ img {
     min-height: 360px;
     padding: 37px 10% 47%;
     text-align: center;
+}
+
+.tc-header--en-ca,
+.tc-header--en-us {
+    background-image: url("/images/TC-Charity-Banner-Image-White-Mobile@2x.png");
+}
+
+.tc-header--fr-fr {
+    background-image: url("/images/TC-Charity-Banner-Image-FR-White-Mobile@2x.png");
+}
+
+.tc-header--en-gb {
+    background-image: url("/images/TC-Charity-Banner-Image-UK-White-Mobile@2x.png");
 }
 
 .tc-header h1 {
@@ -460,8 +472,20 @@ img {
 
 @media (min-width: 640px) {
     .tc-header {
-        background-image: url("/images/Top Hero Image.png");
         background-size: auto 100%;
+    }
+
+    .tc-header--en-ca,
+    .tc-header--en-us {
+        background-image: url("/images/Top Hero Image.png");
+    }
+
+    .tc-header--fr-fr {
+        background-image: url("/images/Top Hero Image-FR.png");
+    }
+
+    .tc-header--en-gb {
+        background-image: url("/images/Top Hero Image-UK.png");
     }
 }
 
