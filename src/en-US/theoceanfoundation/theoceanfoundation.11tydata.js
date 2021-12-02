@@ -1,5 +1,5 @@
 const site = require("../../../_data/site");
-const charityName = "The Ocean Foundation";
+const charityName = "World Ocean Day";
 const charityPrograms = [
     {
         name: "ARM &amp; HAMMER™ and OXICLEAN™ Pouch Recycling Program",
