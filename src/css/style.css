@@ -107,18 +107,6 @@ img {
     overflow-x: hidden;
 }
 
-.tc-header::before {
-    background-image: url("/images/tc_5000w_hero_image.png");
-    bottom: 0;
-    content: "";
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5007px;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-}
-
 .tc-header--en-ca,
 .tc-header--en-us {
     background-image: url("/images/TC-Charity-Banner-Image-White-Mobile@2x.png");
