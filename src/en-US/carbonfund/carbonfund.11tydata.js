@@ -1,5 +1,5 @@
 const site = require("../../../_data/site");
-const charityName = "Carbon Fund";
+const charityName = "Carbonfund.org";
 const charityPrograms = [
     {
         name: "ARM &amp; HAMMER™ and OXICLEAN™ Pouch Recycling Program",
