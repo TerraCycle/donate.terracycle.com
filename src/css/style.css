@@ -787,6 +787,21 @@ img {
     }
 }
 
+@media (min-width: 1900px) {
+    .tc-header--en-ca,
+    .tc-header--en-us {
+        background-image: url("/images/tc_5000w_hero_image.png");
+    }
+
+    .tc-header--fr-fr {
+        background-image: url("/images/Top Hero Image-FR.png");
+    }
+
+    .tc-header--en-gb {
+        background-image: url("/images/Top Hero Image-UK.png");
+    }
+}
+
 @media
 only screen and (orientation: landscape) and (min-width: 1024px) {
     body.tc-z125 {
