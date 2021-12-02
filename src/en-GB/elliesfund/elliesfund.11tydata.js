@@ -155,7 +155,7 @@ module.exports = () => {
             widgetSection: {
                 heading: "Get Your Free Shipping Label + Donate at Zero Cost to You",
                 // ⚠️ Important: please join lines before pasting the code! E.g. https://convert-tool.com/conversion/join-lines
-                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="1a2ad364-421a-413f-a290-5535e5dd7153" ></div> <script> (function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){ (f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c) })(window,document,"script","https://www.terracycle.com/en-US/sdk_v2.js","terracycle"); </script>',
+                code: '<div class="terracycle-widget-new" data-type="ocsl" data-resource-id="a88a21ff-bc3e-4684-854b-fc9e0886c1ad" ><\/div><script>(function(f,a,d,g,e,b,c){f.TerraCycleObject=e;f[e]=f[e]||function(){(f[e].q=f[e].q||[]).push(arguments)};f[e].t=1*new Date();b=a.createElement(d); c=a.getElementsByTagName(d)[0];b.async=1;b.src=g;c.parentNode.insertBefore(b,c)})(window,document,"script","https://www.terracycle.com/en-GB/sdk_v2.js","terracycle");</script>',
             },
             footer: {
                 link: {
