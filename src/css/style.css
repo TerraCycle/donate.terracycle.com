@@ -102,9 +102,7 @@ img {
     justify-content: flex-end;
     min-height: 360px;
     padding: 37px 10% 47%;
-    position: relative;
     text-align: center;
-    overflow-x: hidden;
 }
 
 .tc-header--en-ca,
