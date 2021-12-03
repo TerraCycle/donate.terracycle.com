@@ -3,8 +3,8 @@
 })(function ($, window, document) {
     let breakpoint = 368;
 
-    console.log(breakpoint);
-    console.log(window.devicePixelRatio);
+    console.log("Breakpoint value:", breakpoint);
+    console.log("Device pixel ratio:", window.devicePixelRatio);
 
     if (window.devicePixelRatio >= 1.25 && window.devicePixelRatio < 1.5) {
         document.body.classList.toggle("tc-z125");
