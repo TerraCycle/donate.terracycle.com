@@ -1,5 +1,5 @@
 const site = require("../../../_data/site");
-const charityName = "ASG";
+const charityName = "The Anorchidism Support Group";
 const charityPrograms = [
     {
         name: "The Marigold® Gloves Recycling Programme",
@@ -92,7 +92,7 @@ module.exports = () => {
                 paragraphs: [`Send ${site.brandName}® your waste (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £10 to <strong>${charityName}</strong>`],
             },
             introduction: {
-                charityLogoFileName: "",
+                charityLogoFileName: "asg-Mobile.jpg",
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate £10 per shipment received to <strong>${charityName}</strong>.`,
                     `${site.brandName} is opening ${charityPrograms.length} recycling programmes for participation through the end of the year.`,
@@ -138,9 +138,7 @@ module.exports = () => {
             about: {
                 title: `About <strong>${charityName}</strong>`,
                 paragraphs: [
-                    `The Academic Study Group (${charityName}) was established in 1977; and is a British-registered educational charity. ASG is entirely funded by British well-wishers. Its Mission is to initiate or expand active links and research collaboration between academics, specialists and centres-of-excellence in the UK and their counterparts in Israel.`,
-                    `${charityName} is too small a Foundation to sponsor basic research, but the Charity does commit resources in sponsorship of individual research visits, highly-focused Research Workshops and the creation of specialist placements in Israel. Though ASG is primarily a UK-Israel operation all Workshops are open to specialist participants from other parts of the World, and the involvement of Palestinian and Arab scholars is particularly welcomed.`,
-                    `Within the UK ${charityName} offers a modest Speakers Service providing pre-University students and Adult Ed. audiences with a background to Israel and the Arab World identifying both the Region's brilliances and its problems.`,
+                    `ASG (${charityName}) is based in England, and was formed in 1995 to serve and support any person, or, families of boy's, with congenital (or acquired) absence of the testes. We provide a means of networking with affected families as well as education and information. We have members not only here in the UK but also in other countries all around the world. Due to the nature of the condition it makes fundraising difficult as parents do not wish to make their sons condition common knowledge as at a later date he may not have wished for such a large number of people knowing his very private and personal medical condition details. Large majorities of people (and even professionals), have never heard of this condition, or even know what it is. And so makes it hard for parents to speak to other people who do not understand their feelings, and sometimes they need to speak to another parent who does know what we may be feeling, as they are going through the same issues with their child. This is why it is important to help raise funds for ASG, so that they can be there to help parents and their son understand and learn more about how this will affect their family.`
                 ],
             },
             exploreWhatYouCanRecycle: {
