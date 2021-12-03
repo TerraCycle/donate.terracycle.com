@@ -477,15 +477,15 @@ img {
 
     .tc-header--en-ca,
     .tc-header--en-us {
-        background-image: url("/images/tc_5000w_hero_image.jpg");
+        background-image: url("/images/tc_5000w_hero_image_us-ca.jpg");
     }
 
     .tc-header--fr-fr {
-        background-image: url("/images/Top Hero Image-FR.png");
+        background-image: url("/images/tc_5000w_hero_image_fr.jpg");
     }
 
     .tc-header--en-gb {
-        background-image: url("/images/Top Hero Image-UK.png");
+        background-image: url("/images/tc_5000w_hero_image_gb.jpg");
     }
 }
 
@@ -784,21 +784,6 @@ img {
     .tc-introduction__logo-container > img {
         margin-left: 29px;
         margin-right: 29px;
-    }
-}
-
-@media (min-width: 1900px) {
-    .tc-header--en-ca,
-    .tc-header--en-us {
-        background-image: url("/images/tc_5000w_hero_image.png");
-    }
-
-    .tc-header--fr-fr {
-        background-image: url("/images/Top Hero Image-FR.png");
-    }
-
-    .tc-header--en-gb {
-        background-image: url("/images/Top Hero Image-UK.png");
     }
 }
 
