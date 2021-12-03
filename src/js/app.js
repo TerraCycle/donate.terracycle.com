@@ -1,12 +1,19 @@
 (function (tc) {
     tc(window.jQuery, window, document);
 })(function ($, window, document) {
+    let breakpoint = 368;
+
+    console.log(breakpoint);
+    console.log(window.devicePixelRatio);
+
     if (window.devicePixelRatio >= 1.25 && window.devicePixelRatio < 1.5) {
         document.body.classList.toggle("tc-z125");
+        breakpoint = breakpoint / 1.25;
     }
 
     if (window.devicePixelRatio >= 1.5) {
         document.body.classList.toggle("tc-z150");
+        breakpoint = breakpoint / 1.5;
     }
 
     $(function () {
@@ -20,28 +27,28 @@
             mobileFirst: true,
             responsive: [
                 {
-                    breakpoint: 368 * 2 - 1,
+                    breakpoint: breakpoint * 2 - 1,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1,
                     },
                 },
                 {
-                    breakpoint: 368 * 3 - 1,
+                    breakpoint: breakpoint * 3 - 1,
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
                     },
                 },
                 {
-                    breakpoint: 368 * 4 - 1,
+                    breakpoint: breakpoint * 4 - 1,
                     settings: {
                         slidesToShow: 4,
                         slidesToScroll: 1,
                     },
                 },
                 {
-                    breakpoint: 368 * 5 - 1,
+                    breakpoint: breakpoint * 5 - 1,
                     settings: {
                         slidesToShow: 5,
                         slidesToScroll: 1,
