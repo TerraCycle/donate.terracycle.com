@@ -4,9 +4,8 @@
             <img class="hide-for-medium" src="/images/terracycle-logo-h55.png" width="81" height="55" alt=""/>
             <img class="show-for-medium" src="/images/terracycle-logo-h100.png" width="146" height="100" alt=""/>
             {% if data.introduction.charityLogoFileName %}
-                <img class="hide-for-medium" src="/images/tc-charity-logo-{{data.lang | lower}}/70x70/{{data.introduction.charityLogoFileName | replace(" ", "%20")}}" width="70" height="70" alt=""/>
-                {# Note: replace()! #}
-                <img class="show-for-medium" src="/images/tc-charity-logo-{{data.lang | lower}}/130x130/{{data.introduction.charityLogoFileName | replace(", Mobile", "") | replace("-Mobile", "") | replace(" ", "%20")}}" width="130" height="130" alt=""/>
+                <img class="hide-for-medium" src="/images/tc-charity-logo-{{data.lang | lower}}/mobile/{{data.introduction.charityLogoFileName}}" alt="" height="{{data.introduction.charityLogoHeight.mobile}}"/>
+                <img class="show-for-medium" src="/images/tc-charity-logo-{{data.lang | lower}}/desktop/{{data.introduction.charityLogoFileName}}" alt="" height="{{data.introduction.charityLogoHeight.desktop}}"/>
             {% endif %}
         </div>
         <div class="tc-introduction__inner-container">
