@@ -5,46 +5,46 @@ const charityPrograms = [
     {
         name: "Programme de compostage Lavazza et Carte Noire",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description: "Capsules compostables Eco Caps Lavazza compatibles avec les machines Nespresso® et dosettes souples compostables de la marque Carte Noire",
+        description: "Capsules compostables Eco Caps Lavazza compatibles avec les machines Nespresso® et dosettes souples compostables de la marque Carte Noire (poid minimum 1 kilo)",
         imageFilename: "Lavazza_AW-Image-Mobile_UK.jpg",
     },
     {
         name: "Programme de recyclage des soins capillaires",
         descriptionTitle: "Ce que vous pouvez recycler:",
         description:
-            "Recharges de shampoing, emballages de masques capillaires, tubes flexibles, pompes et déclencheurs Aussie, Head & Shoulders, Herbal Essences, Pantene et Bear Fruits ",
+            "Recharges de shampoing, emballages de masques capillaires, tubes flexibles, pompes et déclencheurs Aussie, Head & Shoulders, Herbal Essences, Pantene et Bear Fruits (poid minimum 1 kilo)",
         imageFilename: "P&G_AW-Image-Mobile_UK.jpg",
     },
     {
         name: "Programme de recyclage Ben's Original™",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description: "Les sachets de riz micro-ondables Ben’s Original™ et d’autres marques",
+        description: "Les sachets de riz micro-ondables Ben’s Original™ et d’autres marques (poid minimum 200 grams)",
         imageFilename: "BensOriginal_AW-Image-Mobile_UK.jpg",
     },
     {
         name: "Programme de recyclage Céréal Bio",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description: "Sachets micro-ondables Céréal Bio, emballages en plastique souple de la gamme des galettes Céréal Bio (carton non inclus)",
+        description: "Sachets micro-ondables Céréal Bio, emballages en plastique souple de la gamme des galettes Céréal Bio (carton non inclus) (poid minimum 100 grams)",
         imageFilename: "CerealBio_AW-Image-Mobile_UK.jpg",
     },
     {
         name: "Programme de recyclage Good Goût®",
         descriptionTitle: "Ce que vous pouvez recycler:",
         description:
-            "Gourdes de fruits, légumes et brassés (bouchons inclus), emballages de carrés, galettes de riz, céréales et muesli, cookies et biscuits animaux, emballages souples et assiettes de plats cuisinés (carton non inclus)",
+            "Gourdes de fruits, légumes et brassés (bouchons inclus), emballages de carrés, galettes de riz, céréales et muesli, cookies et biscuits animaux, emballages souples et assiettes de plats cuisinés (carton non inclus) (poid minimum 500 grams)",
         imageFilename: "GoodGout_AW-Image-Mobile_UK.jpg",
     },
     {
         name: "Programme de recyclage des emballages Babybio et Vitabio",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description: "Gourdes Babybio et Vitabio (bouchons inclus), sachets souples Babybio, assiettes et bols de plats préparés Babybio (carton non inclus)",
+        description: "Gourdes Babybio et Vitabio (bouchons inclus), sachets souples Babybio, assiettes et bols de plats préparés Babybio (carton non inclus) (poid minimum 3 kilos)",
         imageFilename: "Vitabio_AW-Image-Mobile_UK.jpg",
     },
     {
         name: "Programme de recyclage Chupa Chups et Mentos",
         descriptionTitle: "Ce que vous pouvez recycler:",
         description:
-            "Papiers d’emballages en plastique de sucettes, bâtons en plastique de sucettes, sachets en plastique contenant des sucettes de toutes marques, emballages en plastique de bonbons Mentos®",
+            "Papiers d’emballages en plastique de sucettes, bâtons en plastique de sucettes, sachets en plastique contenant des sucettes de toutes marques, emballages en plastique de bonbons Mentos® (poid minimum 100 grams)",
         imageFilename: "CubbaCubba_AW-Image-Mobile_UK.jpg",
     },
 ];
