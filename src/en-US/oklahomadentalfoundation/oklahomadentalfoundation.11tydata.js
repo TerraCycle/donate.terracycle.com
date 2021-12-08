@@ -126,7 +126,11 @@ module.exports = () => {
                 paragraphs: [`Send ${site.brandName}® your trash (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate $10 to <strong>${charityName}</strong>`],
             },
             introduction: {
-                charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, US, Mobile_Mobile Smiles Oklahoma.jpg",
+                charityLogoFileName: "oklahoma_dental_foundation.jpg",
+                charityLogoHeight: {
+                    mobile: 45,
+                    desktop: 90,
+                },
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
                     `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
