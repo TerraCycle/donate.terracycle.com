@@ -95,7 +95,7 @@ module.exports = () => {
                 ],
                 previousStep: "previous step",
                 nextStep: "next step",
-                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure <strong>${charityName}</strong> receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered. `,
+                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure <strong>${charityName}</strong> receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered. The bigger the shipment size, the more efficient and the lower the environmental impact.`,
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,

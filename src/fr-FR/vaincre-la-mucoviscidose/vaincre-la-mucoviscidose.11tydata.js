@@ -109,7 +109,7 @@ module.exports = () => {
                 ],
                 previousStep: "étape précédente",
                 nextStep: "étape suivante",
-                closingSentence: `N'oubliez pas d'expédier vos emballages <strong>au plus tard le 15 décembre</strong> pour que <strong>${charityNameDefiniteArticle}${charityName}</strong> reçoive le plus de dons possible de la part de ${site.brandName}. Les envois reçus après le 31 décembre ne pourront bénéficier que des activations standard offertes.`,
+                closingSentence: `N'oubliez pas d'expédier vos emballages <strong>au plus tard le 15 décembre</strong> pour que <strong>${charityNameDefiniteArticle}${charityName}</strong> reçoive le plus de dons possible de la part de ${site.brandName}. Les envois reçus après le 31 décembre ne pourront bénéficier que des activations standard offertes. Plus votre colis est volumineux, plus nous gagnons en efficacité et minimisons l'impact sur l'environnement.`,
             },
             about: {
                 title: `À propos de <strong>${charityNameDefiniteArticle}${charityName}</strong>`,

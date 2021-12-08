@@ -1,5 +1,5 @@
 const site = require("../../../_data/site");
-const charityName = "Brain Garden";
+const charityName = "Bucks for Butts";
 const charityPrograms = [
     {
         name: "P&G Eco-Box Recycling Program",
@@ -51,7 +51,7 @@ module.exports = () => {
             },
             header: {
                 title: `Raise money for <strong>${charityName}</strong> by recycling for free.`,
-                paragraphs: [`Send ${site.brandName}® your trash (free&nbsp;shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName}`],
+                paragraphs: [`Send ${site.brandName}® your trash (free shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName} by Brain Garden & The Kootenay Planeteers Recycling Society`],
             },
             introduction: {
                 charityLogoFileName: "TC Charity Microsite - Charity Logo Resize, CA, Mobile_Braingarden.jpg",
@@ -98,10 +98,10 @@ module.exports = () => {
                 closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure <strong>${charityName}</strong> receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered. `,
             },
             about: {
-                title: `About <strong>${charityName}</strong>`,
+                title: `About <strong>${charityName}</strong> by Brain Garden & The Kootenay Planeteers Recycling Society`,
                 paragraphs: [
-                    "Brain Garden started as a grassroots endeavor & grew into a global movement, becoming a leader in tobacco waste product reduction strategies & disposal, & the premier distributor of custom branded Reusable Pocket Ashtrays in the world.",
-                `<a href="https://braingarden.ca/" target="_blank" rel="noopener">https://braingarden.ca/</a>`,
+                    `${charityName} helps Canadians recycle Tobacco Product Waste for free, & this process raises funds for our initiatives! The Tobacco Waste LEWP (Litter Education & Wildfire Prevention) is our first initiative. Learn more at <a href="https://facebook.com/BucksForButts" target="_blank" rel="noopener">www.facebook.com/BucksForButts</a>. Brain Garden started as a grassroots endeavor & grew into a global movement, becoming a leader in tobacco waste product reduction strategies & disposal, & the premier distributor of custom branded Reusable Pocket Ashtrays in the world.`,
+                    `<a href="https://facebook.com/BucksForButts" target="_blank" rel="noopener">www.facebook.com/BucksForButts</a>`,
                 ],
             },
             exploreWhatYouCanRecycle: {
