@@ -54,7 +54,11 @@ module.exports = () => {
                 paragraphs: [`Send ${site.brandName}® your trash (free&nbsp;shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName}`],
             },
             introduction: {
-                charityLogoFileName: "", // ⚠️ Missing logo!
+                charityLogoFileName: "blenheim_kent_golden_eagles_gymnastics_club.jpg",
+                charityLogoHeight: {
+                    mobile: 70,
+                    desktop: 130,
+                },
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
                     `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
