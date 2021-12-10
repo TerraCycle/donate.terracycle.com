@@ -92,7 +92,11 @@ module.exports = () => {
                 paragraphs: [`Send ${site.brandName}® your waste (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £10 to <strong>${charityName}</strong>`],
             },
             introduction: {
-                charityLogoFileName: "140766 bowel _ Cancer centre for bowel research-Mobile.png",
+                charityLogoFileName: "bowel_research_uk.jpg",
+                charityLogoHeight: {
+                    mobile: 55,
+                    desktop: 95,
+                },
                 paragraphs: [
                     `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate £10 per shipment received to <strong>${charityName}</strong>.`,
                     `${site.brandName} is opening ${charityPrograms.length} recycling programmes for participation through the end of the year.`,
