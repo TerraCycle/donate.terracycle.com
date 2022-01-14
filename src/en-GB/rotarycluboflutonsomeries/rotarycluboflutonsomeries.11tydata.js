@@ -58,12 +58,6 @@ const charityPrograms = [
         imageFilename: "Kinder_AW-Image-Mobile.jpeg",
     },
     {
-        name: "The Ring Carrier Recycling Programme",
-        descriptionTitle: "What you can recycle:",
-        description: "All flexible plastic ring carriers used to hold cans",
-        imageFilename: "Hi-Cone_AW-Image-Mobile_UK.jpeg",
-    },
-    {
         name: "The PopSockets® Recycling Programme",
         descriptionTitle: "What you can recycle:",
         description: "All PopSockets® products and packaging, and all brands of plastic phone cases",
