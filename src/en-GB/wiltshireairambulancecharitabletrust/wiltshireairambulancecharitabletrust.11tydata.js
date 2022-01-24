@@ -78,19 +78,18 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programmes for participation through the end of the year.`,
+                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programmes for participation through 2022.`,
                 },
             },
             header: {
                 title: `Raise money for <strong>${charityName}</strong> by recycling for free`,
-                paragraphs: [`Send ${site.brandName}® your waste (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £10 to <strong>${charityName}</strong>`],
+                paragraphs: [`Send ${site.brandName}® your waste (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £2 to <strong>${charityName}</strong>`],
             },
             introduction: {
                 charityLogoFileName: "", // ⚠️ Missing logo!
                 paragraphs: [
-                    `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate £10 per shipment received to <strong>${charityName}</strong>.`,
-                    `${site.brandName} is opening ${charityPrograms.length} recycling programmes for participation through the end of the year.`,
-                    `To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.`,
+                    `You can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate £2 per shipment received to <strong>${charityName}</strong>.`,
+                    `${site.brandName} is opening ${charityPrograms.length} recycling programmes for participation through 2022.`,
                 ],
                 button: {
                     label: ["Get Your Free Shipping Label", "Donate at Zero Cost to You!"],
@@ -115,7 +114,7 @@ module.exports = () => {
                         iconFilename: "Box icon.svg",
                     },
                     {
-                        title: `${site.brandName} donates £10 per recycling shipment`,
+                        title: `${site.brandName} donates £2 per recycling shipment`,
                         text: `Just like that, you've donated to <strong>${charityName}</strong> at no cost to you.`,
                         iconFilename: "Donate icon.svg",
                     },
@@ -127,7 +126,7 @@ module.exports = () => {
                 ],
                 previousStep: "previous step",
                 nextStep: "next step",
-                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15th</strong> to ensure <strong>${charityName}</strong> receives the maximum donation from ${site.brandName}. Shipments received after December 31st will only be eligible for the standard incentives offered. The bigger the shipment size, the more efficient and the lower the environmental impact.`,
+                closingSentence: "The bigger the shipment size, the more efficient and the lower the environmental impact transporation will have.",
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
