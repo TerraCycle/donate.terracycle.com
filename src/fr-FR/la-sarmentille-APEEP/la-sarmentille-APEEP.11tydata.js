@@ -56,7 +56,7 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Envoyez des dons à votre association ou votre école préférée en recyclant gratuitement. Jusqu’à la fin de l’année, ${site.brandName} vous propose de participer à différents programmes de recyclage.`,
+                    description: `Envoyez des dons à votre association ou votre école préférée en recyclant gratuitement. ${site.brandName} vous propose de participer à différents programmes de recyclage.`,
                 },
             },
             header: {
@@ -69,9 +69,8 @@ module.exports = () => {
                     desktop: 115,
                 },
                 paragraphs: [
-                    `Pendant les fêtes de fin d'année, faites un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> en recyclant gratuitement avec ${site.brandName} ! En envoyant vos déchets à ${site.brandName} (frais d'envoi gratuits), vous agissez positivement pour l'environnement et aidez <strong>${charityNameDefiniteArticle}${charityName}</strong>. Envoyez vos déchets d'emballages à ${site.brandName}, qui fera don de 10 euros à <strong>${charityNameDefiniteArticle}${charityName}</strong> pour chaque colis reçu.`,
-                    `Jusqu'à la fin de l'année, ${site.brandName} vous propose de participer à ${charityPrograms.length} programmes de recyclage.`,
-                    "Pour avoir le temps de traiter votre envoi et nous assurer que nous recevons le maximum de dons, commencez à collecter vos déchets dès aujourd'hui et envoyez-les <strong>au plus tard le 15 décembre</strong>.",
+                    `Faites un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> en recyclant gratuitement avec ${site.brandName} ! En envoyant vos déchets à ${site.brandName} (frais d'envoi gratuits), vous agissez positivement pour l'environnement et aidez <strong>${charityNameDefiniteArticle}${charityName}</strong>. Envoyez vos déchets d'emballages à ${site.brandName}, qui fera don de 2 euros à <strong>${charityNameDefiniteArticle}${charityName}</strong> pour chaque colis reçu.`,
+                    `${site.brandName} vous propose de participer à ${charityPrograms.length} programmes de recyclage.`,
                 ],
                 button: {
                     label: ["Obtenez votre étiquette d'expédition gratuite", "Faites un don gratuitement!"],
@@ -96,7 +95,7 @@ module.exports = () => {
                         iconFilename: "Box icon.svg",
                     },
                     {
-                        title: `${site.brandName} reverse 10 euros par colis reçu.`,
+                        title: `${site.brandName} reverse 2 euros par colis reçu.`,
                         text: `Et hop, vous venez de faire un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> gratuitement !`,
                         iconFilename: "Donate icon.svg",
                     },
@@ -108,7 +107,7 @@ module.exports = () => {
                 ],
                 previousStep: "étape précédente",
                 nextStep: "étape suivante",
-                closingSentence: `N'oubliez pas d'expédier vos emballages <strong>au plus tard le 15 décembre</strong> pour que <strong>${charityNameDefiniteArticle}${charityName}</strong> reçoive le plus de dons possible de la part de ${site.brandName}. Les envois reçus après le 31 décembre ne pourront bénéficier que des activations standard offertes. Plus votre colis est volumineux, plus nous gagnons en efficacité et minimisons l'impact sur l'environnement.`,
+                closingSentence: "Plus votre colis est volumineux, plus nous gagnons en efficacité et minimisons l'impact sur l'environnement.",
             },
             about: {
                 title: `À propos de <strong>${charityNameDefiniteArticle}${charityName}</strong>`,
