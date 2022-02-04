@@ -46,12 +46,12 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programmes for participation through the end of the year.`,
+                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programmes for participation through 2022`,
                 },
             },
             header: {
                 title: `Raise money for <strong>${charityName}</strong> by recycling for free.`,
-                paragraphs: [`Send ${site.brandName}® your trash (free&nbsp;shipping) to be recycled; ${site.brandName} will donate $10 to ${charityName}`],
+                paragraphs: [`Send ${site.brandName}® your trash (free&nbsp;shipping) to be recycled; ${site.brandName} will donate $1 to ${charityName}`],
             },
             introduction: {
                 charityLogoFileName: "jasper_victims_services.jpg",
@@ -60,9 +60,7 @@ module.exports = () => {
                     desktop: 76,
                 },
                 paragraphs: [
-                    `This holiday season, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate $10 per shipment received to <strong>${charityName}</strong>.`,
-                    `${site.brandName} is opening ${charityPrograms.length} recycling programs for participation through the end of the year.`,
-                    "To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship <strong>no later than December 15th</strong>.",
+                    `You can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} at no cost to you! By sending your trash to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and you’ll receive ${site.brandName} points that can be redeemed as a charitable donation.`,
                 ],
                 button: {
                     label: ["Get Your Free Shipping Label", "Donate at Zero Cost to You!"],
@@ -87,7 +85,7 @@ module.exports = () => {
                         iconFilename: "Box icon.svg",
                     },
                     {
-                        title: `${site.brandName} donates $10 per recycling shipment`,
+                        title: `${site.brandName} donates $1 per pound of material you send back to be recycled`,
                         text: `Just like that, you've donated to <strong>${charityName}</strong> at no cost to you.`,
                         iconFilename: "Donate icon.svg",
                     },
@@ -99,7 +97,7 @@ module.exports = () => {
                 ],
                 previousStep: "previous step",
                 nextStep: "next step",
-                closingSentence: `Don’t forget to ship your packages <strong>no later than December 15</strong> to ensure <strong>${charityName}</strong> receives the maximum donation from ${site.brandName}. Shipments received after December 31 will only be eligible for the standard incentives offered. The bigger the shipment size, the more efficient and the lower the environmental impact.`,
+                closingSentence: `${site.brandName} Tip: A bigger shipment is more efficient and lowers the impact your shipment will have. Consider reusing a box or mailer envelope you have around the house when packing up your shipment to be extra eco-friendly.`,
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
