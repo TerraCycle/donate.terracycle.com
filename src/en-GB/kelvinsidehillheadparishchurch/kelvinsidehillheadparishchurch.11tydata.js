@@ -14,7 +14,7 @@ const charityPrograms = [
         imageFilename: "BH_AW-Image-Mobile.jpg",
     },
     {
-        name: "The Good Refill Pouch Recycling Programme",
+        name: "The Hair Care Packaging Recycling Programme",
         descriptionTitle: "What you can recycle:",
         description: "Aussie, Bear Fruits, Head &amp; Shoulders, Herbal Essences and Pantene: shampoo refill pouches, hair mask pouches, flexible tubes, triggers and pumps",
         imageFilename: "P_G_AW-Image-Mobile.jpg",
@@ -58,6 +58,12 @@ const charityPrograms = [
         imageFilename: "Kinder_AW-Image-Mobile.jpeg",
     },
     {
+        name: "The Philips Dental Care Recycling Programme",
+        descriptionTitle: "What you can recycle:",
+        description: "Electric toothbrush heads and covers, electric flosser nozzles, flossing sticks, interdental brushes, dental floss containers and manual toothbrushes",
+        imageFilename: "Philips_AW-Image-Mobile.jpg",
+    },
+    {
         name: "The PopSockets® Recycling Programme",
         descriptionTitle: "What you can recycle:",
         description: "All PopSockets® products and packaging, and all brands of plastic phone cases",
@@ -69,6 +75,12 @@ const charityPrograms = [
         description: "Ueshima Coffee Company coffee beans and ground coffee pouches, Ueshima Coffee Company coffee bag sachets, Ueshima Coffee Company aluminium capsules",
         imageFilename: "Ueshima_AW-Image-Mobile_UK_V1.jpeg",
     },
+    {
+        name: "The Carex® Recycling Programme",
+        descriptionTitle: "What you can recycle:",
+        description: "Carex® hand wash refill pouches and caps, Carex®, Imperial Leather®, Bayley’s of Bond Street® and Original Source® hand wash pumps",
+        imageFilename: "Carex_AW-Image-Mobile.jpg",
+    },
 ];
 
 module.exports = () => {
@@ -78,18 +90,18 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Raise money for your favorite charity by recycling for free. ${site.brandName} is opening several recycling programmes for participation through 2022.`,
+                    description: "This Earth Month, support your favourite charity by recycling your non-recyclable rubbish with recycling experts TerraCycle! It's a great opportunity to do two good deeds for the price of one: support a worthy cause, whilst preventing loads of rubbish from ending up in landfills.",
                 },
             },
             header: {
                 title: `Raise money for <strong>${charityName}</strong> by recycling for free`,
-                paragraphs: [`Send ${site.brandName}® your waste (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £2 to <strong>${charityName}</strong>`],
+                paragraphs: [`Send ${site.brandName}® your waste (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £5 to <strong>${charityName}</strong>`],
             },
             introduction: {
                 charityLogoFileName: "", // ⚠️ Missing logo!
                 paragraphs: [
-                    `You can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free&nbsp;shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to ${site.brandName}, and they’ll donate £2 per shipment received to <strong>${charityName}</strong>.`,
-                    `${site.brandName} is opening ${charityPrograms.length} recycling programmes for participation through 2022.`,
+                    `To celebrate Earth Month this year, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate £5 per shipment received to <strong>${charityName}</strong>. `,
+                    `${site.brandName} is opening 12 recycling programmes for participation until the end of April. To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship no later than April 30th.`,
                 ],
                 button: {
                     label: ["Get Your Free Shipping Label", "Donate at Zero Cost to You!"],
@@ -114,7 +126,7 @@ module.exports = () => {
                         iconFilename: "Box icon.svg",
                     },
                     {
-                        title: `${site.brandName} donates £2 per recycling shipment`,
+                        title: `${site.brandName} donates £5 per recycling shipment`,
                         text: `Just like that, you've donated to <strong>${charityName}</strong> at no cost to you.`,
                         iconFilename: "Donate icon.svg",
                     },
@@ -126,7 +138,7 @@ module.exports = () => {
                 ],
                 previousStep: "previous step",
                 nextStep: "next step",
-                closingSentence: "The bigger the shipment size, the more efficient and the lower the environmental impact transporation will have.",
+                closingSentence: `Don’t forget to ship your packages  <strong>no later than April 30th</strong> to ensure ${charityName} receives the maximum donation from ${site.brandName}. Shipments sent after April 30th will only be eligible for the standard incentives offered.`,
             },
             about: {
                 title: `About <strong>${charityName}</strong>`,
@@ -139,7 +151,7 @@ module.exports = () => {
                 title: "Explore What You Can Recycle",
                 paragraphs: [
                     `Browse through the programme tiles to view the “unrecyclable” items that ${site.brandName} can accept.`,
-                    `If you would like to recycle through multiple programmes, <strong>please download a new shipping label for each programme and please send the waste corresponding to each programme in separate boxes</strong>.`,
+                    `If you would like to recycle through multiple programmes, <strong>please download a new shipping label for each programme and please send the rubbish corresponding to each programme in separate boxes</strong>.`,
                     `This helps ${site.brandName} recycle efficiently. You can download as many free shipping labels as you need.`,
                 ],
                 programs: charityPrograms,

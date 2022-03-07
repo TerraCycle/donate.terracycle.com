@@ -43,9 +43,32 @@ const charityPrograms = [
     {
         name: "Programme de recyclage Chupa Chups et Mentos",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description:
-            "Papiers d’emballages en plastique de sucettes, bâtons en plastique de sucettes, sachets en plastique contenant des sucettes de toutes marques, emballages en plastique de bonbons Mentos®",
+        description: "Papiers d’emballages en plastique de sucettes, bâtons en plastique de sucettes, sachets en plastique contenant des sucettes de toutes marques, emballages en plastique de bonbons Mentos®",
         imageFilename: "CubbaCubba_AW-Image-Mobile_UK.jpg",
+    },
+    {
+        name: "Programme de recyclage des gants fins ménagers MAPA®",
+        descriptionTitle: "Ce que vous pouvez recycler:",
+        description: "Gants fins ménagers achetés pour un usage domestiqueuniquement (comme pour le ménage, le bricolage, la cuisine, l’hygiène ou le jardinage)",
+        imageFilename: "Mapa_AW-Image-Mobile_UK.jpg",
+    },
+    {
+        name: "Programme de recyclage des capsules Lipton®",
+        descriptionTitle: "Ce que vous pouvez recycler:",
+        description: "Capsules Lipton® de thés et infusions compatibles avec les machines Nespresso® et Nescafé® Dolce Gusto® et tous les opercules placés sur les capsules",
+        imageFilename: "Lipton_AW-Image-Mobile_UK.jpg",
+    },
+    {
+        name: "Programme de recyclage des soins dentaires Philips",
+        descriptionTitle: "Ce que vous pouvez recycler:",
+        description: "Têtes et couvercles de brosses à dents électriques, canules de jet dentaire (par exemple microjet dentaire), brossettes interdentaires et boite de fil dentaire",
+        imageFilename: "Philips_AW-Image-Mobile_UK.jpg",
+    },
+    {
+        name: "Programme de recyclage des jouets Hasbro",
+        descriptionTitle: "Ce que vous pouvez recycler:",
+        description: "Tous les jeux et jouets Hasbro (sauf jeux et jouets électroniques)",
+        imageFilename: "Hasbro_AW-Image-Mobile_UK.jpg",
     },
 ];
 
@@ -56,7 +79,7 @@ module.exports = () => {
             head: {
                 title: charityName,
                 meta: {
-                    description: `Envoyez des dons à votre association ou votre école préférée en recyclant gratuitement. ${site.brandName} vous propose de participer à différents programmes de recyclage.`,
+                    description: `C'est le Mois de la Terre et pour marquer le coup on vous invite à soutenir ${charityName} en recyclant vos déchets non recyclables grâce à TerraCycle ! C'est l'occasion de faire deux bonnes actions pour le prix d'une : soutenir une bonne cause, tout en évitant que des tas de déchets ne finissent dans les décharges.`
                 },
             },
             header: {
@@ -69,8 +92,8 @@ module.exports = () => {
                     desktop: 115,
                 },
                 paragraphs: [
-                    `Faites un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> en recyclant gratuitement avec ${site.brandName} ! En envoyant vos déchets à ${site.brandName} (frais d'envoi gratuits), vous agissez positivement pour l'environnement et aidez <strong>${charityNameDefiniteArticle}${charityName}</strong>. Envoyez vos déchets d'emballages à ${site.brandName}, qui fera don de 2 euros à <strong>${charityNameDefiniteArticle}${charityName}</strong> pour chaque colis reçu.`,
-                    `${site.brandName} vous propose de participer à ${charityPrograms.length} programmes de recyclage.`,
+                    `À l'occasion du Mois de la Terre, faites un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> en recyclant gratuitement avec TerraCycle®! En envoyant vos déchets à TerraCycle (frais d'envoi gratuits), vous agissez positivement pour l'environnement et aidez <strong>${charityNameDefiniteArticle}${charityName}</strong>. Pour chaque colis d'emballages reçu, TerraCycle fera un don de 5 euros à <strong>${charityNameDefiniteArticle}${charityName}</strong>.`,
+                    `Jusqu'à la fin du mois d'avril, TerraCycle vous propose de participer à 11 programmes de recyclage. Pour avoir le temps de traiter votre envoi et nous assurer que nous recevons le maximum de dons, commencez à collecter vos déchets dès aujourd'hui et envoyez-les au plus tard le 30 avril.`
                 ],
                 button: {
                     label: ["Obtenez votre étiquette d'expédition gratuite", "Faites un don gratuitement!"],
@@ -95,7 +118,7 @@ module.exports = () => {
                         iconFilename: "Box icon.svg",
                     },
                     {
-                        title: `${site.brandName} reverse 2 euros par colis reçu.`,
+                        title: `${site.brandName} reverse 5 euros par colis reçu.`,
                         text: `Et hop, vous venez de faire un don à <strong>${charityNameDefiniteArticle}${charityName}</strong> gratuitement !`,
                         iconFilename: "Donate icon.svg",
                     },
@@ -107,7 +130,7 @@ module.exports = () => {
                 ],
                 previousStep: "étape précédente",
                 nextStep: "étape suivante",
-                closingSentence: "Plus votre colis est volumineux, plus nous gagnons en efficacité et minimisons l'impact sur l'environnement.",
+                closingSentence: "N'oubliez pas d'expédier vos emballages au plus tard le 30 avril pour que Charity reçoive le plus de dons possible de la part de TerraCycle. Les colis envoyés après le 30 avril ne pourront bénéficier que des activations standard offertes.",
             },
             about: {
                 title: `À propos de <strong>${charityNameDefiniteArticle}${charityName}</strong>`,
