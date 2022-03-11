@@ -95,7 +95,7 @@ module.exports = () => {
             },
             header: {
                 title: `Raise money for <strong>${charityName}</strong> by recycling for free`,
-                paragraphs: [`Send ${site.brandName}® your waste (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £5 to <strong>${charityName}</strong>`],
+                paragraphs: [`Send ${site.brandName}® your rubbish (free&nbsp;shipping) to be recycled;`, `${site.brandName} will donate £5 to <strong>${charityName}</strong>`],
             },
             introduction: {
                 charityLogoFileName: "rspca_halifax_huddersfield_and_district_branch.jpg",
@@ -104,8 +104,8 @@ module.exports = () => {
                     desktop: 110,
                 },
                 paragraphs: [
-                    `To celebrate Earth Month this year, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your waste to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate £5 per shipment received to <strong>${charityName}</strong>. `,
-                    `${site.brandName} is opening 12 recycling programmes for participation until the end of April. To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your waste today and ship no later than April 30th.`,
+                    `To celebrate Earth Month this year, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your rubbish to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate £5 per shipment received to <strong>${charityName}</strong>. `,
+                    `${site.brandName} is opening 12 recycling programmes for participation until the end of April. To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your rubbish today and ship no later than April 30th.`,
                 ],
                 button: {
                     label: ["Get Your Free Shipping Label", "Donate at Zero Cost to You!"],
@@ -116,7 +116,7 @@ module.exports = () => {
                 steps: [
                     {
                         title: "Choose what to recycle",
-                        text: `Each programme recycles one category of waste, so make sure to review the list of programmes to find the best fit for you! You can use as many programmes as you wish.`,
+                        text: `Each programme recycles one category of rubbish, so make sure to review the list of programmes to find the best fit for you! You can use as many programmes as you wish.`,
                         iconFilename: "Select Icon.svg",
                     },
                     {
@@ -136,7 +136,7 @@ module.exports = () => {
                     },
                     {
                         title: "Repeat!",
-                        text: `If you would like to recycle through multiple programmes, please download a new shipping label for each programme and send the waste in separate boxes.`,
+                        text: `If you would like to recycle through multiple programmes, please download a new shipping label for each programme and send the rubbish in separate boxes.`,
                         iconFilename: "Repeat icon.svg",
                     },
                 ],
