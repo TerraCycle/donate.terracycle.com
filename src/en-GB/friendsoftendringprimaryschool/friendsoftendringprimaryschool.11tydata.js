@@ -101,7 +101,7 @@ module.exports = () => {
                 charityLogoFileName: "", // ⚠️ Missing logo!
                 paragraphs: [
                     `To celebrate Earth Month this year, you can donate to <strong>${charityName}</strong> by recycling through ${site.brandName} <em>at no cost to you!</em> By sending your rubbish to ${site.brandName} (free shipping), you’ll make a positive impact on the environment and support <strong>${charityName}</strong>. Send your used, hard-to-recycle products and packaging to TerraCycle, and they’ll donate £5 per shipment received to <strong>${charityName}</strong>. `,
-                    `${site.brandName} is opening 12 recycling programmes for participation until the end of April. To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your rubbish today and ship no later than April 30th.`,
+                    `${site.brandName} is opening 13 recycling programmes for participation until the end of April. To allow ample time to process your shipment and ensure we receive the maximum donation, start collecting your rubbish today and ship no later than April 30th.`,
                 ],
                 button: {
                     label: ["Get Your Free Shipping Label", "Donate at Zero Cost to You!"],

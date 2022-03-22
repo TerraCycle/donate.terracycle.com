@@ -62,7 +62,7 @@ const charityPrograms = [
     {
         name: "Programme de recyclage des soins dentaires Philips",
         descriptionTitle: "Ce que vous pouvez recycler:",
-        description: "Têtes et couvercles de brosses à dents électriques, canules de jet dentaire (par exemple microjet dentaire), brossettes interdentaires et boite de fil dentaire",
+        description: "Têtes et couvercles de brosses à dents électriques, brosses à dents manuelles, canules de jet dentaire (par exemple microjet dentaire), brossettes interdentaires et boite de fil dentaire",
         imageFilename: "Philips_AW-Image-Mobile_UK.jpg",
     },
     {
@@ -115,7 +115,7 @@ module.exports = () => {
                     },
                     {
                         title: `Envoyez vos déchets collectés à ${site.brandName}`,
-                        text: "CONSEIL : Assurez-vous que vos emballages sont secs avant de les expédier.",
+                        text: "CONSEIL : Assurez-vous que vos emballages soient secs avant de les expédier.",
                         iconFilename: "Box icon.svg",
                     },
                     {
